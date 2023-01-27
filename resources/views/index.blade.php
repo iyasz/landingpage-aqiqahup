@@ -64,6 +64,11 @@
             </div>
             <div
                 class="row text-lg-start text-md-center text-center justify-content-lg-start justify-content-md-center justify-content-center">
+                <div class="col-lg-7 col-md-12 col-11 gy-4 text-lg-end text-md-center text-center d-block d-md-block d-lg-none">
+                    <div class="">
+                        <img src="/assets/img/aboutimg.png" width="560px" class="rounded-3 img-about" alt="">
+                    </div>
+                </div>
                 <div class="col-lg-5 col-md-10 col-11 gy-5">
                     <div class="about title-1 mb-5">
                         <h3 class="fw-600-p mb-3">Fitur Formulir pemesanan</h3>
@@ -82,16 +87,16 @@
                             odio a libero, omnis fugiat numquam? Architecto!</p>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-12 col-11 gy-5 text-center">
+                <div class="col-lg-7 col-md-12 col-11 gy-5 text-lg-end text-md-center text-center d-none d-md-none d-lg-block">
                     <div class="mt-lg-5 mt-md-2 mt-0">
-                        <img src="/assets/img/aboutmain.png" width="650px" class="rounded-3 img-about" alt="">
+                        <img src="/assets/img/aboutimg.png" width="560px" class="rounded-3 img-about" alt="">
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center mt-5">
-                <div class="col-lg-6 col-md-12 col-12 text-center ">
+                <div class="col-lg-6 col-md-12 col-12 text-lg-start text-md-center text-sm-center ">
                     <div class="about-video-main mb-4">
-                        <iframe width="540" height="304" src="https://www.youtube.com/embed/Hd0CemwmMUc"
+                        <iframe width="470" height="304" src="https://www.youtube.com/embed/Hd0CemwmMUc"
                             title="Aqiqahup Video Marketing" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>
@@ -156,6 +161,16 @@
                             <h4>Custom</h4>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    
                 </div>
             </div>
         </div>

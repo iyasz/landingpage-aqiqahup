@@ -31,7 +31,7 @@
         </div>
     </div>
     <hr class="mb-0 hr-nav d-lg-block d-md-none d-none">
-        <nav class="navbar navbar-expand-lg py-3 bg-white shadow-sm sticky-top">
+        <nav id="navbar" class="navbar navbar-expand-lg py-3 bg-white sticky-top">
             <div class="container">
               <a class="navbar-brand" href="#"><img class="" width="170px" src="/assets/img/logo.svg" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -75,7 +75,17 @@
           </nav>
 
         @yield('content')
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+
+            </div>
+          </div>
+        </div>
   
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     {{-- bootstrap  --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
