@@ -32,10 +32,16 @@
         </div>
     </section>
 
-    <section id="quality">
-        <div class="container">
-            <div class="row">
-
+    <section id="quality" class="">
+        <div class="container-fluid">
+            <div class="row justify-content-center ">
+                <div class="col-lg-12">
+                    <div class="img-quality text-center d-flex justify-content-center position-relative overflow-x-auto">
+                        <img class="px-4" src="/assets/img/1.svg" alt="">
+                        <img class="px-4" src="/assets/img/2.svg" alt="">
+                        <img class="px-4" src="/assets/img/3.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -57,7 +63,7 @@
                 </div>
                 <div class="col-12 mt-3">
                     <div class="row justify-content-center text-center">
-                        <div class="col-lg-4 col-md-6 col-11">
+                        <div class="col-lg-4 col-md-6 col-11 gy-5">
                             <div class="card-about">
                                 <i class="bi bi-chat-square-text icon-about"></i>
                                 <h6 class="text-about">Fitur Formulir Pemesanan Yang Lengkap</h6>
@@ -66,7 +72,7 @@
                                     nostrum assumenda at odio.</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-11">
+                        <div class="col-lg-4 col-md-6 col-11 gy-5">
                             <div class="card-about">
                                 <i class="bi bi-bank icon-about"></i>
                                 <h6 class="text-about">Management order yang terpusat dan mudah dimengerti</h6>
@@ -75,7 +81,7 @@
                                     nostrum assumenda at odio.</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-11">
+                        <div class="col-lg-4 col-md-6 col-11 gy-5">
                             <div class="card-about">
                                 <i class="bi bi-database-exclamation icon-about"></i>
                                 <h6 class="text-about">Laporan akuntasi yang lengkap dan otomatis</h6>
