@@ -23,7 +23,7 @@
     font-weight: 400;
 }
 
-.fw-700-p {
+.fw-600-p {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
@@ -169,18 +169,27 @@
     color: var(--color-secondary) !important;
 }
 
-.card-about {
-    background-color: #fff !important;
-    border-radius: 7px;
-    transition: 0.4s;
-    cursor: pointer;
-    position: relative;
-    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 20px;
+.about-main h1 span {
+    color: var(--color-primary);
 }
 
-.card-about:hover {
-    /* transform: translateY(-10px);
-    transition: 0.4s; */
+.about-main h1 {
+    color: var(--color-secondary);
+}
+
+.about h3 {
+    color: var(--color-secondary);
+    font-size: 24px;
+}
+
+.about p {
+    color: var(--color-secondary);
+    font-size: 14.4px;
+    letter-spacing: 0.3px;
+}
+
+.img-about {
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 20px;
 }
 
 .icon-about {
@@ -197,3 +206,25 @@
 }
 
 /* end about  */
+
+/* responsive  */
+
+@media screen and (max-width: 991px) {
+    .img-about {
+        width: 550px;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .img-about {
+        width: 450px;
+    }
+  }
+
+@media screen and (max-width: 575px) {
+    .img-about {
+        width: 300px;
+    }
+  }
+
+/* end responsive */

@@ -10,7 +10,7 @@
                             <p class="mb-0 fs-s-sm fw-300-p"><i class="bi bi-caret-down-fill"></i> Aqiqah Terpercaya dan
                                 Terbaik!</p>
                         </div>
-                        <h1 class="text-main fw-700-p">Pengusaha Aqiqah <br> Itu Berani <span> SCALE UP!</span></h1>
+                        <h1 class="text-main fw-600-p">Pengusaha Aqiqah <br> Itu Berani <span> SCALE UP!</span></h1>
                         <p class="fw-300-p fs-sm mt-4 opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             illo porro provident <br> blanditiis est, amet autem voluptatem minima magnam a sed dolore <br>
                             dolores Cupiditate, a? Aliquid, asperiores totam! .</p>
@@ -50,46 +50,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="text-center">
+                    <div class="text-center about-main">
                         <div class=" d-flex justify-content-center">
                             <div class="text-info-main2 px-2 py-1 rounded-2">
                                 <p class="mb-0 fs-s-sm fw-300-p">#AqiqahUP</p>
                             </div>
                         </div>
-                        <h1 class="fw-700-p mt-2">Sofware Andalan Para <br> Pengusaha Aqiqah</h1>
+                        <h1 class="fw-600-p mt-2">Sofware Andalan Para <br> Pengusaha <span>Aqiqah</span></h1>
                         <p class="fs-6 opacity-75 mt-3">Aqiqahup.id adalah aplikasi terlengkap dalam memahami setiap bisnis
                             proses pemesanan, <br> pengiriman sampai dengan laporan keuangan lembaga Aqiqah.</p>
                     </div>
                 </div>
-                <div class="col-12 mt-3">
-                    <div class="row justify-content-center text-center">
-                        <div class="col-lg-4 col-md-6 col-11 gy-5">
-                            <div class="card-about">
-                                <i class="bi bi-chat-square-text icon-about"></i>
-                                <h6 class="text-about">Fitur Formulir Pemesanan Yang Lengkap</h6>
-                                <p class="my-3 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-                                    quidem nemo exercitationem, delectus in tempora numquam eos dignissimos hic nihil rem
-                                    nostrum assumenda at odio.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-11 gy-5">
-                            <div class="card-about">
-                                <i class="bi bi-bank icon-about"></i>
-                                <h6 class="text-about">Management order yang terpusat dan mudah dimengerti</h6>
-                                <p class="my-3 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-                                    quidem nemo exercitationem, delectus in tempora numquam eos dignissimos hic nihil rem
-                                    nostrum assumenda at odio.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-11 gy-5">
-                            <div class="card-about">
-                                <i class="bi bi-database-exclamation icon-about"></i>
-                                <h6 class="text-about">Laporan akuntasi yang lengkap dan otomatis</h6>
-                                <p class="my-3 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-                                    quidem nemo exercitationem, delectus in tempora numquam eos dignissimos hic nihil rem
-                                    nostrum assumenda at odio.</p>
-                            </div>
-                        </div>
+            </div>
+            <div class="row text-lg-start text-md-center text-center justify-content-lg-start justify-content-md-center justify-content-center">
+                <div class="col-lg-5 col-md-10 col-11 gy-5">
+                    <div class="about title-1 mb-5">
+                        <h3 class="fw-600-p mb-3">Fitur Formulir pemesanan</h3>
+                        <p class="fw-300-p ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum veritatis iure assumenda.</p>
+                    </div>
+                    <div class="about title-2 mb-5">
+                        <h3 class="fw-600-p mb-3">Management order yang terpusat dan mudah dimengerti</h3>
+                        <p class="fw-300-p ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium cumque officia veritatis in. Architecto totam distinctio, ullam voluptatibus molestias magnam.</p>
+                    </div>
+                    <div class="about title-3 mb-3">
+                        <h3 class="fw-600-p mb-3">Laporan akuntasi yang lengkap dan otomatis</h3>
+                        <p class="fw-300-p ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores commodi esse velit laborum iure repellat voluptate quam facere neque asperiores voluptatum quia sapiente, odio a libero, omnis fugiat numquam? Architecto!</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-11 gy-5 text-center">
+                    <div class="mt-lg-5 mt-md-2 mt-0">
+                        <img src="/assets/img/aboutmain.png" width="650px"  class="rounded-3 shadow-lg img-about" alt="">
                     </div>
                 </div>
             </div>
