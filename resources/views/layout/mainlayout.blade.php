@@ -51,7 +51,7 @@
                       <a class="nav-link fw-400-r" href="#about">About Us</a>
                     </li>
                     <li class="nav-item mx-1">
-                      <a class="nav-link fw-400-r" href="#">Paket</a>
+                      <a class="nav-link fw-400-r" href="#paket">Paket</a>
                     </li>
                     <li class="nav-item mx-1">
                       <a class="nav-link fw-400-r" href="#">Contact</a>
@@ -79,5 +79,8 @@
 
     {{-- bootstrap  --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    {{-- script  --}}
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>
