@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+  }
 
 :root {
     --color-primary: #498ff8;
@@ -189,8 +191,8 @@
 }
 
 .img-about {
-    -webkit-filter: drop-shadow(2px 2px 19px rgba(0,0,0,0.1) );
-    filter: drop-shadow(2px 2px 19px rgba(0,0,0,0.1));
+    -webkit-filter: drop-shadow(2px 2px 19px rgba(0,0,0,0.04) );
+    filter: drop-shadow(2px 2px 19px rgba(0,0,0,0.04));
   }
 
 .icon-about {

@@ -18,7 +18,7 @@
                             <a href="https://app.aqiqahup.id/register?ref=website"
                                 class="btn btn-primary btn-daftar fw-500-p py-2">Daftar Sekarang <i
                                     class="bi bi-arrow-right-short"></i></a>
-                            <a href="" class="btn btn-info btn-play ms-3 fw-500-p "><i
+                            <a href="#paket" id="playLink" class="btn btn-info btn-play ms-3 fw-500-p "><i
                                     class="bi bi-play-circle me-2"></i> Mulai</a>
                         </div>
                     </div>
@@ -83,8 +83,7 @@
                     <div class="about title-3 mb-3">
                         <h3 class="fw-600-p mb-3">Laporan akuntasi yang lengkap dan otomatis</h3>
                         <p class="fw-300-p ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores commodi esse
-                            velit laborum iure repellat voluptate quam facere neque asperiores voluptatum quia sapiente,
-                            odio a libero, omnis fugiat numquam? Architecto!</p>
+                            velit laborum iure repellat voluptate quam facere neque asperiores voluptatum quia sapiente!</p>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12 col-11 gy-5 text-lg-end text-md-center text-center d-none d-md-none d-lg-block">
