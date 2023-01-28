@@ -28,6 +28,8 @@ $(".btn-play").on("click", function(e) {
 
 // end scroll func 
 
+// scroll items 
+
 window.onscroll = function() {
     scrollFunction()
     scrollTopIcon()
@@ -48,3 +50,91 @@ function scrollTopIcon() {
         document.getElementById("top-icon").style.bottom = "-40px";
     }
 }
+
+// end scroll items 
+
+// purecounter js 
+
+new PureCounter({
+
+  duration: 1.4,
+});
+
+// end purecounter js 
+
+// loader 
+
+document.addEventListener('DOMContentLoaded', () => {
+  "use strict";
+
+  /**
+   * Preloader
+   */
+  const preloader = document.querySelector('#loader');
+  if (preloader) {
+    window.addEventListener('load', () => {
+      preloader.remove();
+    });
+  }
+  });
+
+//end loader 
+
+// Data Aos 
+
+// AOS.init({
+//   duration: 1000,
+//   easing: 'ease-in-out',
+//   once: true,
+//   mirror: false,
+// });
+
+function aos_init() {
+  AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: true,
+    mirror: false
+  });
+}
+window.addEventListener('load', () => {
+  aos_init();
+});
+
+
+// End Data Aos 
+
+// swiper js 
+
+var swiper = new Swiper(".mySwiper", {
+    
+    centeredSlidesBounds: true,
+    centeredSlides: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        575: {
+          slidesPerView: 1,
+          spaceBetween: 370,
+        },
+        768: {
+          slidesPerView: 1.8,
+          spaceBetween: 40,
+          initialSlide: 1,
+          centeredSlidesBounds: false,
+        },
+        991: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          initialSlide: 3,
+        },
+      }, 
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
+//   end swiper js

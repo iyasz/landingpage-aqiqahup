@@ -15,7 +15,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-    
+
+    {{-- swiper js  --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    {{-- data Aos js  --}}
+    {{-- <link rel="stylesheet" href="bower_components/aos/dist/aos.css" /> --}}
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="/assets/css/custom.css">
   </head>
@@ -34,7 +40,7 @@
     <hr class="mb-0 hr-nav d-lg-block d-md-none d-none">
         <nav id="navbar" class="navbar navbar-expand-lg py-3 bg-white sticky-top">
             <div class="container">
-              <a class="navbar-brand" href="#"><img class="" width="170px" src="/assets/img/logo.svg" alt=""></a>
+              <a class="navbar-brand" href=""><img class="" width="170px" src="/assets/img/logo.svg" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -84,6 +90,8 @@
             </div>
           </div>
         </div>
+
+      <div id="loader"></div>
   
         <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -91,7 +99,18 @@
     {{-- bootstrap  --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    {{-- Purecounter js  --}}
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+
+    {{-- Data Aos Js  --}}
+    {{-- <script src="bower_components/aos/dist/aos.js"></script> --}}
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     {{-- script  --}}
     <script src="/assets/js/main.js"></script>
+    
   </body>
 </html>

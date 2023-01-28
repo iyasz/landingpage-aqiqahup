@@ -6,24 +6,49 @@
             <div class="row mt-5">
                 <div class="col-lg-8">
                     <div class="home-main mt-">
-                        <div class="text-info-main px-2 py-1 rounded-2">
+                        <div data-aos="fade-up" data-aos-delay="50" class="text-info-main px-2 py-1 rounded-2">
                             <p class="mb-0 fs-s-sm fw-300-p"><i class="bi bi-caret-down-fill"></i> Aqiqah Terpercaya dan
                                 Terbaik!</p>
                         </div>
-                        <h1 class="text-main fw-600-p">Pengusaha Aqiqah <br> Itu Berani <span> SCALE UP!</span></h1>
-                        <p class="fw-300-p fs-sm mt-4 opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <h1 data-aos="fade-up" data-aos-delay="100"
+                        class="text-main fw-600-p">Pengusaha Aqiqah <br> Itu Berani <span> SCALE UP!</span></h1>
+                        <p  data-aos="fade-up" data-aos-delay="150" class="fw-300-p fs-sm mt-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             illo porro provident <br> blanditiis est, amet autem voluptatem minima magnam a sed dolore <br>
                             dolores Cupiditate, a? Aliquid, asperiores totam! .</p>
-                        <div class="btn-main ">
-                            <a href="https://app.aqiqahup.id/register?ref=website"
+                        <div class="btn-main" data-aos="fade-up" data-aos-delay="250">
+                            <a  href="https://app.aqiqahup.id/register?ref=website"
                                 class="btn btn-primary btn-daftar fw-500-p py-2">Daftar Sekarang <i
                                     class="bi bi-arrow-right-short"></i></a>
-                                        <a href="#paket" id="playLink" class="btn btn-info btn-play ms-3 fw-500-p "><i class="bi bi-play-circle me-2"></i> <span>Mulai</span></a>
+                                        <a  href="#paket" id="playLink" class="btn btn-info btn-play ms-3 fw-500-p "><i class="bi bi-play-circle me-2"></i> <span>Mulai</span></a>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="250" class="statistik-home-main d-flex mt-5 justify-content-evenly justify-content-md-evenly justify-content-lg-start">
+                            <div class="statistik text-center me-lg-5 me-md-4 me-4">
+                                <h2 data-purecounter-start="0"
+                                data-purecounter-end="400"
+                                 class="fw-600-p mb-0 purecounter">+</h2>
+                                <p class="fw-500-p fs-s-sm mt-3">Pengguna</p>
+                            </div>
+                            <div class="statistik text-center me-lg-5 me-md-4 me-4">
+                                <h2 data-purecounter-start="0"
+                                data-purecounter-end="20"
+                                 class="fw-600-p mb-0 purecounter"></h2>
+                                <p class="fw-500-p fs-s-sm mt-3">Partner</p>
+                            </div>
+                            <div class="statistik text-center me-lg-5 me-md-4 me-4">
+                                <h2 data-purecounter-start="0"
+                                data-purecounter-end="13"
+                                 class="fw-600-p mb-0 purecounter"></h2>
+                                <p class="fw-500-p fs-s-sm mt-3">Cabang</p>
+                            </div>
+                            <div class="statistik text-center ">
+                                <h2 class="fw-600-p mb-0">A+</h2>
+                                <p class="fw-500-p fs-s-sm mt-3">Akreditasi</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="row justify-content-center">
+                    <div data-aos="zoom-out" data-aos-delay="250" class="row justify-content-center">
                         <img width="330px" class="rounded-circle" src="/assets/img/mainimg.png" alt="">
                     </div>
                 </div>
@@ -132,6 +157,39 @@
                     </div>
                 </div>
             </div>
+            <div class="swiper mySwiper mt-4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ">
+                        <div class="card-main"> 
+                            <div class="head-cover"></div>
+                            <div class="header-main-card">
+                                <h4>Paket Basic</h4>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <div class="card-main"> 
+                        <div class="head-cover"></div>
+                        <div class="header-main-card">
+                            <h4>Paket Premium</h4>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <div class="card-main"> 
+                        <div class="head-cover"></div>
+                        <div class="header-main-card">
+                            <h4>Paket Custom</h4>
+                        </div>
+                    </div>
+                    </div>
+                    {{-- <div class="swiper-slide">Slide 2</div> --}}
+                </div>
+                <div class="swiper-pagination d-lg-none d-md-block d-block"></div>
+                <div class="swiper-button-next d-lg-none d-md-block d-block"></div>
+                <div class="swiper-button-prev d-lg-none d-md-block d-block"></div>
+                
+              </div>
             <div class="row justify-content-center mt-3">
                 <div class="col-lg-4 col-md-6 col-12 gy-4">
                     <div class="card-paket">
