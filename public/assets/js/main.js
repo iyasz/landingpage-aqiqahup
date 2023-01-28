@@ -7,7 +7,7 @@ $(".nav-link").on("click", function(e) {
     $("html, body").animate({
             scrollTop: $(linkHref).offset().top - 94,
         },
-        1700
+        1500
     );
     return false;
 })

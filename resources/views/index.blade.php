@@ -14,12 +14,11 @@
                         <p class="fw-300-p fs-sm mt-4 opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             illo porro provident <br> blanditiis est, amet autem voluptatem minima magnam a sed dolore <br>
                             dolores Cupiditate, a? Aliquid, asperiores totam! .</p>
-                        <div class="btn-main">
+                        <div class="btn-main ">
                             <a href="https://app.aqiqahup.id/register?ref=website"
                                 class="btn btn-primary btn-daftar fw-500-p py-2">Daftar Sekarang <i
                                     class="bi bi-arrow-right-short"></i></a>
-                            <a href="#paket" id="playLink" class="btn btn-info btn-play ms-3 fw-500-p "><i
-                                    class="bi bi-play-circle me-2"></i> Mulai</a>
+                                        <a href="#paket" id="playLink" class="btn btn-info btn-play ms-3 fw-500-p "><i class="bi bi-play-circle me-2"></i> <span>Mulai</span></a>
                         </div>
                     </div>
                 </div>

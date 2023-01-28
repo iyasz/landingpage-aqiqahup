@@ -102,17 +102,17 @@ html {
     border: 1px solid var(--color-primary);
     color: white;
     position: relative;
-    box-shadow: 2px 0px 15px 3px rgba(73,143,248,0.28);
--webkit-box-shadow: 2px 0px 15px 3px rgba(73,143,248,0.28);
--moz-box-shadow: 2px 0px 15px 3px rgba(73,143,248,0.28);
+    box-shadow: 2px 0px 10px 3px rgba(73,143,248,0.23);
+-webkit-box-shadow: 2px 0px 10px 3px rgba(73,143,248,0.23);
+-moz-box-shadow: 2px 0px 10px 3px rgba(73,143,248,0.23);
 }
 
 .btn-daftar:hover {
     background-color: #317dee;
     border: 1px solid var(--color-primary);
-    box-shadow: 2px 0px 20px 3px rgba(73,143,248,0.34);
--webkit-box-shadow: 2px 0px 20px 3px rgba(73,143,248,0.34);
--moz-box-shadow: 2px 0px 20px 3px rgba(73,143,248,0.34);
+    box-shadow: 2px 0px 12px 3px rgba(73,143,248,0.28);
+-webkit-box-shadow: 2px 0px 12px 3px rgba(73,143,248,0.28);
+-moz-box-shadow: 2px 0px 12px 3px rgba(73,143,248,0.28);
 }
 
 .btn-daftar:active {
@@ -120,10 +120,23 @@ html {
     border-color: #317dee !important;
 }
 
+.btn-play:hover .bi.bi-play-circle  {
+    opacity: 100%;
+    transform: rotate(5deg) scale(1.1);;
+    transition: 0.7s;
+}
+
+.btn-play span {
+    position: relative;
+    top: -2px;
+}
+
 .bi.bi-play-circle {
     font-size: 22px;
     position: relative;
     top: 3px;
+    transition: .2s ease-in-out;
+    display: inline-flex;
 }
 
 .btn-play, .btn-play:hover, .btn-play:active  {
@@ -191,8 +204,8 @@ html {
 }
 
 .img-about {
-    -webkit-filter: drop-shadow(2px 2px 19px rgba(0,0,0,0.04) );
-    filter: drop-shadow(2px 2px 19px rgba(0,0,0,0.04));
+    -webkit-filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.04) );
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.04));
   }
 
 .icon-about {
@@ -293,7 +306,7 @@ html {
     }
 
     .about-video-main iframe {
-        width: 320px;
+        width: 100%;
     }
   }
 
