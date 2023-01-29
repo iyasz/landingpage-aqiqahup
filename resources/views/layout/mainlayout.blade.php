@@ -122,6 +122,9 @@
     {{-- <script src="bower_components/aos/dist/aos.js"></script> --}}
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
+    {{-- popper js  --}}
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+
     {{-- script  --}}
     <script src="/assets/js/main.js"></script>
     

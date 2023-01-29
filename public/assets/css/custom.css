@@ -8,9 +8,12 @@ html {
     --color-primary-3: #f3f6fb;
     --color-secondary: #0E405d;
     --color-secondary-opacity: #586064;
+    --color-dark-soft-blue: #6f9cdf;
     --color-soft-blue: #84a7dc;
+    --color-soft-blue-2: #317dee;
     --color-soft-yellow: #F5EA5A;
-    --gray-primary: #616161;
+    --color-dark-soft-yellow: #f4e839;
+    --gray-primary: #6b6b6b;
     --gray-secondary: #2d2d2d;
 }
 
@@ -111,7 +114,7 @@ html {
 }
 
 .btn-daftar:hover {
-    background-color: #317dee;
+    background-color: var(--color-soft-blue-2);
     border: 1px solid var(--color-primary);
     box-shadow: 2px 0px 12px 3px rgba(73,143,248,0.28);
 -webkit-box-shadow: 2px 0px 12px 3px rgba(73,143,248,0.28);
@@ -119,8 +122,8 @@ html {
 }
 
 .btn-daftar:active {
-    background-color: #317dee !important;
-    border-color: #317dee !important;
+    background-color: var(--color-soft-blue-2) !important;
+    border-color: var(--color-soft-blue-2) !important;
 }
 
 .btn-play:hover .bi.bi-play-circle  {
@@ -315,10 +318,55 @@ html {
     background: var(--color-soft-yellow) !important;
 }
 
+.content-paket-primary a {
+    background-color: var(--color-soft-yellow) !important;
+    border: 1px solid var(--color-soft-yellow) !important;
+}
+
+.content-paket-primary a:hover, .content-paket-primary a:active {
+    background-color: var(--color-dark-soft-yellow) !important;
+    border: 1px solid var(--color-dark-soft-yellow) !important;
+}
+
+.content-card a {
+    background-color: var(--color-soft-blue);
+    border: 1px solid var(--color-soft-blue);
+    color: white;
+    position: relative;
+}
+
+.content-card p{
+    font-size: 13px;
+    color: var(--gray-primary);
+}
+
+.content-card a:hover, .content-card a:active {
+    background-color: var(--color-dark-soft-blue) ;
+    border: 1px solid var(--color-dark-soft-blue) ;
+}
+
+.resource p {
+    font-size: 12px;
+    color: var(--color-secondary);
+}
+
+.bi.bi-check {
+    background-color: var(--color-primary-2);
+    color: var(--color-dark-soft-blue);
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px 6px;
+}
+
+.bi.bi-question-circle {
+    font-size: 12px;
+}
+
 /* swiper paket  */
 
 .swiper {
     padding-top: 65px !important;
+    padding-bottom: 65px !important;
     width: 100%;
     height: 100%;
   }
@@ -341,6 +389,7 @@ html {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    /* border: 1px solid var(--gray-primary); */
   }
 
   .swiper-slide .card-main {
@@ -379,7 +428,7 @@ html {
   }
   
   .swiper-pagination {
-    /* top: 0 !important; */
+    bottom: 0 !important;
   }
 
   .offcanvas.offcanvas-end {
@@ -506,3 +555,56 @@ html {
   }
 
 /* end loader  */
+
+/* popper js  */
+
+#tooltip {
+    background: #333;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 300;
+    padding: 4px 8px;
+    font-size: 11px;
+    border-radius: 4px;
+    display: none;
+  }
+
+  #tooltip[data-show] {
+    display: block;
+  }
+
+  #arrow,
+  #arrow::before {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: inherit;
+  }
+
+  #arrow {
+    visibility: hidden;
+  }
+
+  #arrow::before {
+    visibility: visible;
+    content: '';
+    transform: rotate(45deg);
+  }
+
+  #tooltip[data-popper-placement^='top'] > #arrow {
+    bottom: -4px;
+  }
+
+  #tooltip[data-popper-placement^='bottom'] > #arrow {
+    top: -4px;
+  }
+
+  #tooltip[data-popper-placement^='left'] > #arrow {
+    right: -4px;
+  }
+
+  #tooltip[data-popper-placement^='right'] > #arrow {
+    left: -4px;
+  }
+
+/* end popper js  */

@@ -10,34 +10,34 @@
                             <p class="mb-0 fs-s-sm fw-300-p"><i class="bi bi-caret-down-fill"></i> Aqiqah Terpercaya dan
                                 Terbaik!</p>
                         </div>
-                        <h1 data-aos="fade-up" data-aos-delay="100"
-                        class="text-main fw-600-p">Pengusaha Aqiqah <br> Itu Berani <span> SCALE UP!</span></h1>
-                        <p  data-aos="fade-up" data-aos-delay="150" class="fw-300-p fs-sm mt-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <h1 data-aos="fade-up" data-aos-delay="100" class="text-main fw-600-p">Pengusaha Aqiqah <br> Itu
+                            Berani <span> SCALE UP!</span></h1>
+                        <p data-aos="fade-up" data-aos-delay="150" class="fw-300-p fs-sm mt-4 ">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit.
                             illo porro provident <br> blanditiis est, amet autem voluptatem minima magnam a sed dolore <br>
                             dolores Cupiditate, a? Aliquid, asperiores totam! .</p>
                         <div class="btn-main" data-aos="fade-up" data-aos-delay="250">
-                            <a  href="https://app.aqiqahup.id/register?ref=website"
+                            <a href="https://app.aqiqahup.id/register?ref=website"
                                 class="btn btn-primary btn-daftar fw-500-p py-2">Daftar Sekarang <i
                                     class="bi bi-arrow-right-short"></i></a>
-                                        <a  href="#paket" id="playLink" class="btn btn-info btn-play ms-3 fw-500-p "><i class="bi bi-play-circle me-2"></i> <span>Mulai</span></a>
+                            <a href="#paket" id="playLink" class="btn btn-info btn-play ms-3 fw-500-p "><i
+                                    class="bi bi-play-circle me-2"></i> <span>Mulai</span></a>
                         </div>
-                        <div data-aos="fade-up" data-aos-delay="250" class="statistik-home-main d-flex mt-5 justify-content-evenly justify-content-md-evenly justify-content-lg-start">
+                        <div data-aos="fade-up" data-aos-delay="250"
+                            class="statistik-home-main d-flex mt-5 justify-content-evenly justify-content-md-evenly justify-content-lg-start">
                             <div class="statistik text-center me-lg-5 me-md-4 me-4">
-                                <h2 data-purecounter-start="0"
-                                data-purecounter-end="400"
-                                 class="fw-600-p mb-0 purecounter">+</h2>
+                                <h2 data-purecounter-start="0" data-purecounter-end="400" class="fw-600-p mb-0 purecounter">
+                                    +</h2>
                                 <p class="fw-500-p fs-s-sm mt-3">Pengguna</p>
                             </div>
                             <div class="statistik text-center me-lg-5 me-md-4 me-4">
-                                <h2 data-purecounter-start="0"
-                                data-purecounter-end="20"
-                                 class="fw-600-p mb-0 purecounter"></h2>
+                                <h2 data-purecounter-start="0" data-purecounter-end="20" class="fw-600-p mb-0 purecounter">
+                                </h2>
                                 <p class="fw-500-p fs-s-sm mt-3">Partner</p>
                             </div>
                             <div class="statistik text-center me-lg-5 me-md-4 me-4">
-                                <h2 data-purecounter-start="0"
-                                data-purecounter-end="13"
-                                 class="fw-600-p mb-0 purecounter"></h2>
+                                <h2 data-purecounter-start="0" data-purecounter-end="13" class="fw-600-p mb-0 purecounter">
+                                </h2>
                                 <p class="fw-500-p fs-s-sm mt-3">Cabang</p>
                             </div>
                             <div class="statistik text-center ">
@@ -88,7 +88,8 @@
             </div>
             <div
                 class="row text-lg-start text-md-center text-center justify-content-lg-start justify-content-md-center justify-content-center">
-                <div class="col-lg-7 col-md-12 col-11 gy-4 text-lg-end text-md-center text-center d-block d-md-block d-lg-none">
+                <div
+                    class="col-lg-7 col-md-12 col-11 gy-4 text-lg-end text-md-center text-center d-block d-md-block d-lg-none">
                     <div class="">
                         <img src="/assets/img/aboutimg.png" width="560px" class="rounded-3 img-about" alt="">
                     </div>
@@ -110,7 +111,8 @@
                             velit laborum iure repellat voluptate quam facere neque asperiores voluptatum quia sapiente!</p>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-12 col-11 gy-5 text-lg-end text-md-center text-center d-none d-md-none d-lg-block">
+                <div
+                    class="col-lg-7 col-md-12 col-11 gy-5 text-lg-end text-md-center text-center d-none d-md-none d-lg-block">
                     <div class="mt-lg-5 mt-md-2 mt-0">
                         <img src="/assets/img/aboutimg.png" width="560px" class="rounded-3 img-about" alt="">
                     </div>
@@ -160,7 +162,7 @@
             <div class="swiper mySwiper mt-4">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide ">
-                        <div class="card-main"> 
+                        <div class="card-main">
                             <div class="head-cover"></div>
                             <div class="header-main-card mt-4">
                                 <h4 class="fw-600-p mb-0">Paket Basic</h4>
@@ -168,49 +170,81 @@
                             </div>
                             <div class="content-card">
                                 <h1 class="fw-600-p "><span>Rp</span>349.000<span>/bln</span></h1>
-                                <div class="">
-                                    <a href="" class="btn btn-primary">Trial 14 Hari</a>
+                                <a href="https://app.aqiqahup.id/register?ref=website"
+                                class="btn btn-primary fw-500-p py-2 px-5 mt-3">Trial 14 Hari</a>
+                                <p class="fw-300-p mt-3">Dapat diperpanjang setiap bulan</p>
+                            </div>
+                            <hr class="my-4 mx-4">
+                            <div class="resource mx-4">
+                                <div class="d-flex ">
+                                    <div class="co me-2">
+                                        <i class="bi bi-check full"></i>
+                                    </div>
+                                    <div class="co text-start">
+                                        <p class="fw-300-p mb-0 mt-2">Unlimited Formulir Pemesanan</p>
+                                    </div>
+                                    <div class="co ms-auto">
+                                        <i class="bi bi-question-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="d-flex mt-2">
+                                    <div class="co me-2">
+                                        <i class="bi bi-check full"></i>
+                                    </div>
+                                    <div class="co text-start">
+                                        <p class="fw-300-p mb-0 mt-2">Unlimited Formulir Pemesanan</p>
+                                    </div>
+                                    <div class="co ms-auto">
+                                        <div class=""></div>
+                                        <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                        <div id="tooltip" role="tooltip">
+                                            Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                            <div id="arrow" data-popper-arrow></div>
+                                          </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                  </div>
-                  <div class="swiper-slide ">
-                    <div class="card-main"> 
-                        <div class="head-cover cover-primary"></div>
-                        <div class="header-main-card mt-4">
-                            <h4 class="fw-600-p mb-0">Paket Premium</h4>
-                            <p class="fw-300-p">Cocok Untuk Bisnis Menengah Dan Setaranya</p>
-                        </div>
-                        <div class="content-card">
-                            <h1 class="fw-600-p "><span>Rp</span>999.000<span>/bln</span></h1>
-                            <div class="">
-                                <a href="" class="btn btn-primary">Daftar di sini</a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <div class="card-main">
+                            <div class="head-cover cover-primary"></div>
+                            <div class="header-main-card mt-4">
+                                <h4 class="fw-600-p mb-0">Paket Premium</h4>
+                                <p class="fw-300-p">Cocok Untuk Bisnis Menengah Dan Setaranya</p>
+                            </div>
+                            <div class="content-card content-paket-primary">
+                                <h1 class="fw-600-p "><span>Rp</span>999.000<span>/bln</span></h1>
+                                <a href="https://app.aqiqahup.id/register?ref=website"
+                                    class="btn btn-primary fw-500-p py-2 px-5 mt-3">Daftar di sini</a>
+                                <p class="fw-300-p mt-3">Dapat diperpanjang setiap bulan</p>
+                                <hr class="my-4">
                             </div>
                         </div>
                     </div>
-                  </div>
-                  <div class="swiper-slide ">
-                    <div class="card-main"> 
-                        <div class="head-cover"></div>
-                        <div class="header-main-card mt-4">
-                            <h4 class="fw-600-p mb-0">Paket Custom</h4>
-                            <p class="fw-300-p">Paket Untuk Customisasi Fiturmu!</p>
-                        </div>
-                        <div class="content-card">
-                            <h1 class="fw-600-p ">CUSTOM</h1>
-                            <div class="">
-                                <a href="" class="btn btn-primary">Daftar di sini</a>
+                    <div class="swiper-slide ">
+                        <div class="card-main">
+                            <div class="head-cover"></div>
+                            <div class="header-main-card mt-4">
+                                <h4 class="fw-600-p mb-0">Paket Custom</h4>
+                                <p class="fw-300-p">Paket Untuk Customisasi Fiturmu!</p>
+                            </div>
+                            <div class="content-card">
+                                <h1 class="fw-600-p ">CUSTOM</h1>
+                                <a href="https://app.aqiqahup.id/register?ref=website"
+                                    class="btn btn-primary fw-500-p py-2 px-5 mt-3">Daftar di sini</a>
+                                <p class="fw-300-p mt-3">Dapat diperpanjang setiap bulan</p>
+                                <hr class="my-4">
                             </div>
                         </div>
-                    </div>
                     </div>
                     {{-- <div class="swiper-slide">Slide 2</div> --}}
                 </div>
                 <div class="swiper-button-next d-lg-none d-md-block d-block"></div>
                 <div class="swiper-button-prev d-lg-none d-md-block d-block"></div>
                 <div class="swiper-pagination d-lg-none d-md-block d-block"></div>
-                
-              </div>
+
+            </div>
         </div>
     </section>
 
@@ -218,7 +252,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    
+
                 </div>
             </div>
         </div>
