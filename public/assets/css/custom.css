@@ -8,7 +8,10 @@ html {
     --color-primary-3: #f3f6fb;
     --color-secondary: #0E405d;
     --color-secondary-opacity: #586064;
+    --color-soft-blue: #84a7dc;
+    --color-soft-yellow: #F5EA5A;
     --gray-primary: #616161;
+    --gray-secondary: #2d2d2d;
 }
 
 .fw-300-p {
@@ -291,16 +294,31 @@ html {
 }
 
 .head-cover {
-    background-color: var(--color-secondary);
+    background-color: var(--color-soft-blue);
     width: 100%;
-    height: 20px;
+    height: 15px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.content-card h1 span {
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.content-card h1 {
+    color: var(--color-secondary);
+}
+
+.cover-primary {
+    background: var(--color-soft-yellow) !important;
 }
 
 /* swiper paket  */
 
 .swiper {
+    padding-top: 65px !important;
     width: 100%;
     height: 100%;
   }
@@ -329,15 +347,20 @@ html {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
   }
 
   .swiper-button-next, .swiper-button-prev {
     color: var(--color-secondary) !important;
   }
 
-  .header-main-card {
+  .header-main-card p {
+    font-size: 13px;
+    color: var(--color-secondary);
+  }
 
+  .header-main-card h4 {
+    color: var(--color-secondary);
   }
 
   .swiper-button-next:after, .swiper-button-prev:after {
@@ -354,6 +377,10 @@ html {
     width: 13px !important;
     height: 13px !important;
   }
+  
+  .swiper-pagination {
+    /* top: 0 !important; */
+  }
 
   .offcanvas.offcanvas-end {
     width: 290px !important;
@@ -363,9 +390,21 @@ html {
     background-color: var(--color-secondary) !important;
   }
 
+
 /* end swiper paket  */
 
 /* end paket  */
+
+/* footer  */
+
+#footer {
+    background-color: var(--color-primary-3);
+    width: 100%;
+    height: 300px;
+}
+
+
+/* end footer  */
 
 
 /* responsive  */

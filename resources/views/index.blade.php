@@ -162,63 +162,55 @@
                     <div class="swiper-slide ">
                         <div class="card-main"> 
                             <div class="head-cover"></div>
-                            <div class="header-main-card">
-                                <h4>Paket Basic</h4>
+                            <div class="header-main-card mt-4">
+                                <h4 class="fw-600-p mb-0">Paket Basic</h4>
+                                <p class="fw-300-p">Sangat Cocok Untuk Pemula</p>
+                            </div>
+                            <div class="content-card">
+                                <h1 class="fw-600-p "><span>Rp</span>349.000<span>/bln</span></h1>
+                                <div class="">
+                                    <a href="" class="btn btn-primary">Trial 14 Hari</a>
+                                </div>
                             </div>
                         </div>
                   </div>
                   <div class="swiper-slide ">
                     <div class="card-main"> 
-                        <div class="head-cover"></div>
-                        <div class="header-main-card">
-                            <h4>Paket Premium</h4>
+                        <div class="head-cover cover-primary"></div>
+                        <div class="header-main-card mt-4">
+                            <h4 class="fw-600-p mb-0">Paket Premium</h4>
+                            <p class="fw-300-p">Cocok Untuk Bisnis Menengah Dan Setaranya</p>
+                        </div>
+                        <div class="content-card">
+                            <h1 class="fw-600-p "><span>Rp</span>999.000<span>/bln</span></h1>
+                            <div class="">
+                                <a href="" class="btn btn-primary">Daftar di sini</a>
+                            </div>
                         </div>
                     </div>
                   </div>
                   <div class="swiper-slide ">
                     <div class="card-main"> 
                         <div class="head-cover"></div>
-                        <div class="header-main-card">
-                            <h4>Paket Custom</h4>
+                        <div class="header-main-card mt-4">
+                            <h4 class="fw-600-p mb-0">Paket Custom</h4>
+                            <p class="fw-300-p">Paket Untuk Customisasi Fiturmu!</p>
+                        </div>
+                        <div class="content-card">
+                            <h1 class="fw-600-p ">CUSTOM</h1>
+                            <div class="">
+                                <a href="" class="btn btn-primary">Daftar di sini</a>
+                            </div>
                         </div>
                     </div>
                     </div>
                     {{-- <div class="swiper-slide">Slide 2</div> --}}
                 </div>
-                <div class="swiper-pagination d-lg-none d-md-block d-block"></div>
                 <div class="swiper-button-next d-lg-none d-md-block d-block"></div>
                 <div class="swiper-button-prev d-lg-none d-md-block d-block"></div>
+                <div class="swiper-pagination d-lg-none d-md-block d-block"></div>
                 
               </div>
-            <div class="row justify-content-center mt-3">
-                <div class="col-lg-4 col-md-6 col-12 gy-4">
-                    <div class="card-paket">
-                        <div class="head-cover"></div>
-                        <div class="header-card">
-                            <h4>Basic</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 gy-4">
-                    <div class="card-paket">
-                        {{-- <div class="badge-paket text-center rounded-pill">
-                            <p class="fw-500-p text-white">Paket Terlaris</p>
-                        </div> --}}
-                        <div class="head-cover"></div>
-                        <div class="header-card">
-                            <h4>Premium</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 gy-4">
-                    <div class="card-paket">
-                        <div class="head-cover"></div>
-                        <div class="header-card">
-                            <h4>Custom</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
