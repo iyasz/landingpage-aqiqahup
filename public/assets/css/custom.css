@@ -12,6 +12,7 @@ html {
     --color-soft-blue: #84a7dc;
     --color-soft-blue-2: #317dee;
     --color-soft-yellow: #F5EA5A;
+    --color-soft-yellow-2: #fffed7;
     --color-dark-soft-yellow: #f4e839;
     --gray-primary: #6b6b6b;
     --gray-secondary: #2d2d2d;
@@ -358,14 +359,32 @@ html {
     padding: 4px 6px;
 }
 
+.bi.bi-check.min {
+  background-color: var(--color-soft-yellow-2);
+  color: var(--color-dark-soft-yellow);
+}
+
 .bi.bi-question-circle {
     font-size: 12px;
+}
+
+.header-card-resource span {
+  font-weight: 500 !important;
+}
+
+.content-register-now h1 {
+  color: var(--color-secondary);
+}
+
+.content-register-now p {
+  font-size: 14px;
+  color: var(--color-secondary-opacity);
+  letter-spacing: 0.3px;
 }
 
 /* swiper paket  */
 
 .swiper {
-    padding-top: 65px !important;
     padding-bottom: 65px !important;
     width: 100%;
     height: 100%;
@@ -389,6 +408,7 @@ html {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px;
     /* border: 1px solid var(--gray-primary); */
   }
 
@@ -413,7 +433,7 @@ html {
   }
 
   .swiper-button-next:after, .swiper-button-prev:after {
-    font-size: 23px !important;
+    font-size: 20px !important;
   }
 
   .swiper-pagination-bullet {
@@ -567,10 +587,13 @@ html {
     font-size: 11px;
     border-radius: 4px;
     display: none;
+    z-index: 99999999999 !important;
   }
 
   #tooltip[data-show] {
     display: block;
+    z-index: 99999999999 !important;
+
   }
 
   #arrow,
@@ -579,16 +602,22 @@ html {
     width: 8px;
     height: 8px;
     background: inherit;
+    z-index: 99999999999 !important;
+
   }
 
   #arrow {
     visibility: hidden;
+    z-index: 99999999999 !important;
+
   }
 
   #arrow::before {
     visibility: visible;
     content: '';
     transform: rotate(45deg);
+    z-index: 99999999999 !important;
+
   }
 
   #tooltip[data-popper-placement^='top'] > #arrow {

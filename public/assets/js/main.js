@@ -56,7 +56,6 @@ function scrollTopIcon() {
 // purecounter js 
 
 new PureCounter({
-
   duration: 1.4,
 });
 
@@ -67,9 +66,6 @@ new PureCounter({
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
-  /**
-   * Preloader
-   */
   const preloader = document.querySelector('#loader');
   if (preloader) {
     window.addEventListener('load', () => {
@@ -107,7 +103,7 @@ window.addEventListener('load', () => {
 // swiper js 
 
 var swiper = new Swiper(".mySwiper", {
-  spaceBetween: 30,
+    spaceBetween: 30,
     centeredSlidesBounds: true,
     centeredSlides: true,
     navigation: {
@@ -129,6 +125,8 @@ var swiper = new Swiper(".mySwiper", {
           slidesPerView: 3,
           spaceBetween: 30,
           initialSlide: 3,
+    			allowSlidePrev: false,
+		    	allowSlideNext: false 
         },
       }, 
     pagination: {

@@ -159,10 +159,10 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper mySwiper mt-4">
+            <div class="swiper mySwiper mt-4 px-lg-2 px-md-0 px-0">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide ">
-                        <div class="card-main">
+                        <div class="card-main pb-5">
                             <div class="head-cover"></div>
                             <div class="header-main-card mt-4">
                                 <h4 class="fw-600-p mb-0">Paket Basic</h4>
@@ -174,28 +174,76 @@
                                 class="btn btn-primary fw-500-p py-2 px-5 mt-3">Trial 14 Hari</a>
                                 <p class="fw-300-p mt-3">Dapat diperpanjang setiap bulan</p>
                             </div>
-                            <hr class="my-4 mx-4">
+                            <hr class="m-4">
                             <div class="resource mx-4">
                                 <div class="d-flex ">
                                     <div class="co me-2">
                                         <i class="bi bi-check full"></i>
                                     </div>
-                                    <div class="co text-start">
-                                        <p class="fw-300-p mb-0 mt-2">Unlimited Formulir Pemesanan</p>
+                                    <div class="header-card-resource text-start">
+                                        <p class="fw-300-p mb-0 mt-2"> <span>Unlimited</span> Formulir Pemesanan</p>
                                     </div>
                                     <div class="co ms-auto">
-                                        <i class="bi bi-question-circle"></i>
+                                        <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                        <div id="tooltip" role="tooltip">
+                                            Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                            <div id="arrow" data-popper-arrow></div>
+                                          </div>
                                     </div>
                                 </div>
                                 <div class="d-flex mt-2">
                                     <div class="co me-2">
-                                        <i class="bi bi-check full"></i>
+                                        <i class="bi bi-check min"></i>
                                     </div>
-                                    <div class="co text-start">
-                                        <p class="fw-300-p mb-0 mt-2">Unlimited Formulir Pemesanan</p>
+                                    <div class="header-card-resource text-start">
+                                        <p class="fw-300-p mb-0 mt-2">Single <span>Kitchen</span></p>
                                     </div>
                                     <div class="co ms-auto">
-                                        <div class=""></div>
+                                        <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                        <div id="tooltip" role="tooltip">
+                                            Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                            <div id="arrow" data-popper-arrow></div>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex mt-2">
+                                    <div class="co me-2">
+                                        <i class="bi bi-check min"></i>
+                                    </div>
+                                    <div class="header-card-resource text-start">
+                                        <p class="fw-300-p mb-0 mt-2">Single <span>RPH</span></p>
+                                    </div>
+                                    <div class="co ms-auto">
+                                        <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                        <div id="tooltip" role="tooltip">
+                                            Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                            <div id="arrow" data-popper-arrow></div>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex mt-2">
+                                    <div class="co me-2">
+                                        <i class="bi bi-check min"></i>
+                                    </div>
+                                    <div class="header-card-resource text-start">
+                                        <p class="fw-300-p mb-0 mt-2"><span>Basic</span> Accounting</p>
+                                    </div>
+                                    <div class="co ms-auto">
+                                        <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                        <div id="tooltip" role="tooltip">
+                                            Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                            <div id="arrow" data-popper-arrow></div>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex mt-2">
+                                    <div class="co me-2">
+                                        <i class="bi bi-check min"></i>
+                                    </div>
+                                    <div class="header-card-resource text-start">
+                                        <p class="fw-300-p mb-0 mt-2"><span>Basic</span> User Management</p>
+                                    </div>
+                                    <div class="co ms-auto">
                                         <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
                                         <div id="tooltip" role="tooltip">
                                             Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
@@ -207,23 +255,100 @@
                         </div>
                     </div>
                     <div class="swiper-slide ">
-                        <div class="card-main">
+                        <div class="card-main pb-5">
                             <div class="head-cover cover-primary"></div>
                             <div class="header-main-card mt-4">
                                 <h4 class="fw-600-p mb-0">Paket Premium</h4>
-                                <p class="fw-300-p">Cocok Untuk Bisnis Menengah Dan Setaranya</p>
+                                <p class="fw-300-p">Cocok Untuk Bisnis Menengah Dan Keatas</p>
                             </div>
                             <div class="content-card content-paket-primary">
                                 <h1 class="fw-600-p "><span>Rp</span>999.000<span>/bln</span></h1>
                                 <a href="https://app.aqiqahup.id/register?ref=website"
                                     class="btn btn-primary fw-500-p py-2 px-5 mt-3">Daftar di sini</a>
                                 <p class="fw-300-p mt-3">Dapat diperpanjang setiap bulan</p>
-                                <hr class="my-4">
+                                <hr class="m-4">
+                                <div class="resource mx-4">
+                                    <div class="d-flex ">
+                                        <div class="co me-2">
+                                            <i class="bi bi-check full"></i>
+                                        </div>
+                                        <div class="header-card-resource text-start">
+                                            <p class="fw-300-p mb-0 mt-2"> <span>Unlimited</span> Formulir Pemesanan</p>
+                                        </div>
+                                        <div class="co ms-auto">
+                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                            <div id="tooltip" role="tooltip">
+                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                                <div id="arrow" data-popper-arrow></div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex mt-2">
+                                        <div class="co me-2">
+                                            <i class="bi bi-check full"></i>
+                                        </div>
+                                        <div class="header-card-resource text-start">
+                                            <p class="fw-300-p mb-0 mt-2">Multi <span>Kitchen</span></p>
+                                        </div>
+                                        <div class="co ms-auto">
+                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                            <div id="tooltip" role="tooltip">
+                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                                <div id="arrow" data-popper-arrow></div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex mt-2">
+                                        <div class="co me-2">
+                                            <i class="bi bi-check full"></i>
+                                        </div>
+                                        <div class="header-card-resource text-start">
+                                            <p class="fw-300-p mb-0 mt-2">Multi <span>RPH</span></p>
+                                        </div>
+                                        <div class="co ms-auto">
+                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                            <div id="tooltip" role="tooltip">
+                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                                <div id="arrow" data-popper-arrow></div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex mt-2">
+                                        <div class="co me-2">
+                                            <i class="bi bi-check full"></i>
+                                        </div>
+                                        <div class="header-card-resource text-start">
+                                            <p class="fw-300-p mb-0 mt-2"><span>Pro</span> Accounting</p>
+                                        </div>
+                                        <div class="co ms-auto">
+                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                            <div id="tooltip" role="tooltip">
+                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                                <div id="arrow" data-popper-arrow></div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex mt-2">
+                                        <div class="co me-2">
+                                            <i class="bi bi-check full"></i>
+                                        </div>
+                                        <div class="header-card-resource text-start">
+                                            <p class="fw-300-p mb-0 mt-2"><span>Multi</span> User Management</p>
+                                        </div>
+                                        <div class="co ms-auto">
+                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                            <div id="tooltip" role="tooltip">
+                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                                <div id="arrow" data-popper-arrow></div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide ">
-                        <div class="card-main">
+                        <div class="card-main pb-5">
                             <div class="head-cover"></div>
                             <div class="header-main-card mt-4">
                                 <h4 class="fw-600-p mb-0">Paket Custom</h4>
@@ -234,7 +359,84 @@
                                 <a href="https://app.aqiqahup.id/register?ref=website"
                                     class="btn btn-primary fw-500-p py-2 px-5 mt-3">Daftar di sini</a>
                                 <p class="fw-300-p mt-3">Dapat diperpanjang setiap bulan</p>
-                                <hr class="my-4">
+                                <hr class="m-4">
+                                <div class="resource mx-4">
+                                    <div class="d-flex ">
+                                        <div class="co me-2">
+                                            <i class="bi bi-check full"></i>
+                                        </div>
+                                        <div class="header-card-resource text-start">
+                                            <p class="fw-300-p mb-0 mt-2"> <span>Semua</span> Fitur Pro</p>
+                                        </div>
+                                        <div class="co ms-auto">
+                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                            <div id="tooltip" role="tooltip">
+                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                                <div id="arrow" data-popper-arrow></div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex mt-2">
+                                        <div class="co me-2">
+                                            <i class="bi bi-check full"></i>
+                                        </div>
+                                        <div class="header-card-resource text-start">
+                                            <p class="fw-300-p mb-0 mt-2">Integrasi <span>Bank</span></p>
+                                        </div>
+                                        <div class="co ms-auto">
+                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                            <div id="tooltip" role="tooltip">
+                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                                <div id="arrow" data-popper-arrow></div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex mt-2">
+                                        <div class="co me-2">
+                                            <i class="bi bi-check full"></i>
+                                        </div>
+                                        <div class="header-card-resource text-start">
+                                            <p class="fw-300-p mb-0 mt-2"><span>Custom</span> Module</p>
+                                        </div>
+                                        <div class="co ms-auto">
+                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                            <div id="tooltip" role="tooltip">
+                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                                <div id="arrow" data-popper-arrow></div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex mt-2">
+                                        <div class="co me-2">
+                                            <i class="bi bi-check full"></i>
+                                        </div>
+                                        <div class="header-card-resource text-start">
+                                            <p class="fw-300-p mb-0 mt-2">Dedicated <span>Server</span></p>
+                                        </div>
+                                        <div class="co ms-auto">
+                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                            <div id="tooltip" role="tooltip">
+                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                                <div id="arrow" data-popper-arrow></div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex mt-2">
+                                        <div class="co me-2">
+                                            <i class="bi bi-check full"></i>
+                                        </div>
+                                        <div class="header-card-resource text-start">
+                                            <p class="fw-300-p mb-0 mt-2">Dedicated <span>Suppoert</span></p>
+                                        </div>
+                                        <div class="co ms-auto">
+                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
+                                            <div id="tooltip" role="tooltip">
+                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
+                                                <div id="arrow" data-popper-arrow></div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -245,8 +447,23 @@
                 <div class="swiper-pagination d-lg-none d-md-block d-block"></div>
 
             </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="content-register-now">
+                        <div class="text-info-main px-2 py-1 rounded-2">
+                            <p class="mb-0 fs-s-sm fw-300-p">#SoftwareAndalan</p>
+                        </div>
+                        <h1 class="fw-600-p">Daftar Sekarang Yuk!</h1>
+                        <p class="fw-300-p mt-4">Mari bergabung dengan ratusan pengusaha Aqiqah yang telah menggunakan AqiqahUP</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+
+                </div>
+            </div>
         </div>
     </section>
+    
 
     <section id="kontak">
         <div class="container">
