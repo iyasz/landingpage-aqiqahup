@@ -90,7 +90,7 @@ html {
     font-size: 3.5rem;
 }
 
-.text-main span {
+.text-main span, .content-register-now span, .contact-header-main span {
     color: var(--color-primary);
 }
 
@@ -376,10 +376,15 @@ html {
   color: var(--color-secondary);
 }
 
-.content-register-now p {
+.content-register-now p, .contact-header-main .content-header p {
   font-size: 14px;
   color: var(--color-secondary-opacity);
   letter-spacing: 0.3px;
+}
+
+.content-register-now a {
+  font-size: 16px;
+  color: var(--color-secondary);
 }
 
 /* swiper paket  */
@@ -463,6 +468,27 @@ html {
 /* end swiper paket  */
 
 /* end paket  */
+
+/* kontak  */
+
+.form-control {
+  border-radius: 3px ;
+  margin-bottom: 8px;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.form-contact label {
+  font-size: 13px;
+  font-family: 'Poppins';
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  margin-bottom: 4px;
+}
+
+/* end kontak  */
 
 /* footer  */
 

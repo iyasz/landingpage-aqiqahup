@@ -447,29 +447,76 @@
                 <div class="swiper-pagination d-lg-none d-md-block d-block"></div>
 
             </div>
-            <div class="row mt-5">
-                <div class="col-lg-6">
+            <div class="row mt-5 mb-4">
+                <div class="col-lg-7 col-md-12 col-12 text-center d-lg-none d-md-block d-block">
+                    <img src="/assets/img/contentregister.png" width="100%" alt="">
+                </div>
+                <div class="col-lg-5 col-md-12 col-12">
                     <div class="content-register-now">
-                        <div class="text-info-main px-2 py-1 rounded-2">
+                        <div class="text-info-main px-2 py-1 rounded-2 mb-1 mt-4">
                             <p class="mb-0 fs-s-sm fw-300-p">#SoftwareAndalan</p>
                         </div>
-                        <h1 class="fw-600-p">Daftar Sekarang Yuk!</h1>
-                        <p class="fw-300-p mt-4">Mari bergabung dengan ratusan pengusaha Aqiqah yang telah menggunakan AqiqahUP</p>
+                        <h1 class="fw-600-p">Daftar Sekarang <span> Yuk!</span></h1>
+                        <p class="fw-300-p mt-4 mb-0">Mari bergabung dengan ratusan pengusaha Aqiqah yang telah menggunakan AqiqahUP</p>
+                        <a href="https://app.aqiqahup.id/register?ref=website" class="fw-500-p mt-4 text-decoration-none">Daftar Sekarang</a>
                     </div>
                 </div>
-                <div class="col-lg-6">
-
+                <div class="col-lg-7 text-center d-lg-block d-md-none d-none">
+                    <img src="/assets/img/contentregister.png" width="100%" height="250px" alt="">
                 </div>
             </div>
         </div>
     </section>
     
 
-    <section id="kontak">
+    <section id="kontak" class="">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
+            <div class="row ">
+                <div class="col-12 mt-3">
+                    <div class="contact-header-main text-center">
+                        <div class="d-flex justify-content-center ">
+                            <div class="text-info-main px-2 py-1 rounded-2 mb-1 mt-4">
+                                <p class="mb-0 fs-s-sm fw-300-p">#ContactUs</p>
+                            </div>
+                        </div>
+                        <div class="content-header">
+                            <h1 class="fw-600-p">Interested? <span> Contact us!</span></h1>
+                        <p class="fw-300-p">Presentasi dengan mengisi formulir di bawah ini. Team bussines  kami akan segera menghubungi anda :</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3234211480717!2d106.73792901476904!3d-6.221014495496669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f0b3439247b1%3A0xc3490e6b265e33c5!2sPT%20Solusi%20Data%20Pratama!5e0!3m2!1sen!2sid!4v1667997657966!5m2!1sen!2sid" frameborder="0" width="100%" height="300px" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <form action="" method="post">
+                    @csrf
+                    <div class="form-contact mt-4 mt-lg-0 mt-md-4">
+                        <label>Nama Lengkap</label>
+                        <input autocomplete="off" type="text" class="form-control" name="">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="form-contact">
+                                <label>Email</label>
+                                <input autocomplete="off" type="text" class="form-control" name="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="form-contact">
 
+                                <label>No Whattsapp</label>
+                                <input autocomplete="off" type="text" class="form-control" name="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-contact">
+                        <label>Pertanyaan</label>
+                        <textarea autocomplete="off" name="" class="form-control" style="height: 130px"></textarea>
+                    </div>
+                </form>
                 </div>
             </div>
         </div>

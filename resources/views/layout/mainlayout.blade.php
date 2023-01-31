@@ -61,7 +61,7 @@
                       <a class="nav-link fw-400-r" href="#paket">Paket</a>
                     </li>
                     <li class="nav-item mx-1">
-                      <a class="nav-link fw-400-r" href="#">Contact</a>
+                      <a class="nav-link fw-400-r" href="#kontak">Contact</a>
                     </li>
                     <li class="nav-item mx-1">
                       <a class="nav-link fw-400-r" href="https://aqiqahup.tawk.help/">Bantuan</a>
