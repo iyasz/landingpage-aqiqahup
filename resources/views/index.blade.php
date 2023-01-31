@@ -510,25 +510,25 @@
                     @csrf
                     <div class="form-contact mt-4 mt-lg-0 mt-md-4">
                         <label>Nama Lengkap</label>
-                        <input autocomplete="off" type="text" class="form-control" value="{{ old('fullName') }}" name="fullName">
+                        <input autocomplete="off" type="text" class="form-control @error('fullName') is-invalid @enderror" value="{{ old('fullName') }}" name="fullName">
                     </div>
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="form-contact">
                                 <label>Email</label>
-                                <input autocomplete="off" type="text" class="form-control" value="{{ old('email') }}" name="email">
+                                <input autocomplete="off" type="text" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" name="email">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="form-contact">
                                 <label>No Whattsapp</label>
-                                <input autocomplete="off" type="number" value="{{ old('no_wa') }}" class="form-control" name="no_wa">
+                                <input autocomplete="off" type="number" value="{{ old('no_wa') }}" class="form-control @error('no_wa') is-invalid @enderror" name="no_wa">
                             </div>
                         </div>
                     </div>
                     <div class="form-contact">
                         <label>Pertanyaan</label>
-                        <textarea autocomplete="off" name="pertanyaan" class="form-control" style="height: 130px">{{ old('pertanyaan') }}</textarea>
+                        <textarea autocomplete="off" name="pertanyaan" class="form-control" style="height: 125px">{{ old('pertanyaan') }}</textarea>
                     </div>
                     <div class="text-end">
                         <button type="submit" class="btn btn-primary py-2 px-3 fw-500-p">Submit</button>

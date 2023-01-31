@@ -11,6 +11,14 @@ class sendmailController extends Controller
     public function index(Request $request)
     {
 
+        $rules = [
+            'fullName' => 'required',
+            'no_wa' => 'required',
+            'email' => 'required|email',
+        ];
+
+        $validated = $request->validate($rules);
+
         $dataMail = [
             'fullName' => $request->fullName,
             'email' => $request->email,
