@@ -75,9 +75,9 @@
             <div class="row">
                 <div class="col-12">
                     <div class="text-center about-main">
-                        <div class=" d-flex justify-content-center">
+                        <div  class=" d-flex justify-content-center">
                             <div class="text-info-main2 px-2 py-1 rounded-2">
-                                <p class="mb-0 fs-s-sm fw-300-p">#AqiqahUP</p>
+                                <p class="mb-0 fs-s-sm fw-300-p" >#AqiqahUP</p>
                             </div>
                         </div>
                         <h1 class="fw-600-p mt-2">Sofware Andalan Para <br> Pengusaha <span>Aqiqah</span></h1>
@@ -457,8 +457,8 @@
                             <p class="mb-0 fs-s-sm fw-300-p">#SoftwareAndalan</p>
                         </div>
                         <h1 class="fw-600-p">Daftar Sekarang <span> Yuk!</span></h1>
-                        <p class="fw-300-p mt-4 mb-0">Mari bergabung dengan ratusan pengusaha Aqiqah yang telah menggunakan AqiqahUP</p>
-                        <a href="https://app.aqiqahup.id/register?ref=website" class="fw-500-p mt-4 text-decoration-none">Daftar Sekarang</a>
+                        <p class="fw-300-p mt-4 ">Mari bergabung dengan ratusan pengusaha Aqiqah yang telah menggunakan AqiqahUP</p>
+                        <a href="https://app.aqiqahup.id/register?ref=website" class="fw-500-p mt-5 text-decoration-none">Daftar Sekarang</a>
                     </div>
                 </div>
                 <div class="col-lg-7 text-center d-lg-block d-md-none d-none">
@@ -491,30 +491,32 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3234211480717!2d106.73792901476904!3d-6.221014495496669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f0b3439247b1%3A0xc3490e6b265e33c5!2sPT%20Solusi%20Data%20Pratama!5e0!3m2!1sen!2sid!4v1667997657966!5m2!1sen!2sid" frameborder="0" width="100%" height="300px" allowfullscreen></iframe>
                 </div>
                 <div class="col-lg-6 col-md-12 col-12">
-                    <form action="" method="post">
+                    <form action="/store" method="post">
                     @csrf
                     <div class="form-contact mt-4 mt-lg-0 mt-md-4">
                         <label>Nama Lengkap</label>
-                        <input autocomplete="off" type="text" class="form-control" name="">
+                        <input autocomplete="off" type="text" class="form-control" value="{{ old('fullName') }}" name="fullName">
                     </div>
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="form-contact">
                                 <label>Email</label>
-                                <input autocomplete="off" type="text" class="form-control" name="">
+                                <input autocomplete="off" type="text" class="form-control" value="{{ old('email') }}" name="email">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="form-contact">
-
                                 <label>No Whattsapp</label>
-                                <input autocomplete="off" type="text" class="form-control" name="">
+                                <input autocomplete="off" type="number" value="{{ old('no_wa') }}" class="form-control" name="no_wa">
                             </div>
                         </div>
                     </div>
                     <div class="form-contact">
                         <label>Pertanyaan</label>
-                        <textarea autocomplete="off" name="" class="form-control" style="height: 130px"></textarea>
+                        <textarea autocomplete="off" name="pertanyaan" class="form-control" style="height: 130px">{{ old('pertanyaan') }}</textarea>
+                    </div>
+                    <div class="text-end">
+                        <button type="submit" class="btn btn-primary py-2 px-3 fw-500-p">Submit</button>
                     </div>
                 </form>
                 </div>

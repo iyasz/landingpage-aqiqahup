@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\sendmailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,5 @@ Route::get('/', function () {
 Route::get('/aqiqah', function () {
     return view('aqiqaj');
 });
+
+Route::post('/store', [sendmailController::class, 'index']);

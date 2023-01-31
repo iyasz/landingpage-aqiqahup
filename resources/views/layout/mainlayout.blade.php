@@ -87,14 +87,13 @@
           <div class="container">
             <div class="row">
               <div class="col-12">
-                <div class="header-footer">
+                <div class="content-footer">
                   <h3>FOLLOW OUR SOCIAL MEDIA</h3>
                   <div class="">
-
                   </div>
                   <div class="">
-                    <a href="">Kebijakan Privasi</a>
                     <a href="">Home</a>
+                    <a href="">Kebijakan Privasi</a>
                     <a href="">Syarat dan Ketentuan</a>
                     <a href="">Status Server</a>
                   </div>

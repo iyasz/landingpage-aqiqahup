@@ -172,17 +172,12 @@ html {
     transform: translateX(-50%);
     right: 0;
 }
-
-.statistik p {
-
-}
-
 /* end home  */
 
 /* quality  */
 
 #quality {
-    margin-top: 150px;
+    margin-top: 90px;
     background-color: var(--color-primary-3);
     width: 100%;
     height: 180px;
@@ -474,6 +469,7 @@ html {
 .form-control {
   border-radius: 3px ;
   margin-bottom: 8px;
+  color: var(--color-secondary-opacity);
 }
 
 .form-control:focus {
