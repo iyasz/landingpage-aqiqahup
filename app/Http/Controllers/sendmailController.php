@@ -18,7 +18,7 @@ class sendmailController extends Controller
             'pertanyaan' => $request->pertanyaan,
         ];
 
-        Mail::to($request->email)->send(new sendMail($dataMail));
-        return redirect('/')->with('success', 'Pesan Berhasil Terkirim :)');
+        Mail::to('akunkeduaiyas@gmail.com')->send(new sendMail($dataMail));
+        return redirect('/')->with('success', 'Pesan Email Berhasil Terkirim :D');
     }
 }

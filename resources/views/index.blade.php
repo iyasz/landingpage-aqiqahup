@@ -1,6 +1,21 @@
 @extends('layout.mainlayout')
 
 @section('content')
+
+@if (SESSION('success'))
+<script>
+    iziToast.show({
+        icon: "fa-regular fa-circle-check",
+        message: "{{SESSION('success')}}",
+        position: "topCenter",
+        drag: false,
+        pauseOnHover: false,
+        color: "green",
+        iconUrl: null,
+        timeout: 4100,
+      });</script>
+@endif
+
     <section id="home">
         <div class="container">
             <div class="row mt-5">
