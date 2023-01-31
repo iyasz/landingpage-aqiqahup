@@ -521,7 +521,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="form-contact">
-                                <label>No Whattsapp</label>
+                                <label>No Whatsapp</label>
                                 <input autocomplete="off" type="number" value="{{ old('no_wa') }}" class="form-control @error('no_wa') is-invalid @enderror" name="no_wa">
                             </div>
                         </div>
@@ -535,7 +535,24 @@
                     </div>
                 </form>
                 </div>
-            </div>
+            {{-- </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-10 col-12">
+                    <div class="card-contact">
+                        <h1>ADDRESS</h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-10 col-12">
+                    <div class="card-contact">
+                        <h1>PHONE NUMBER</h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-10 col-12">
+                    <div class="card-contact">
+                        <h1>EMAIL</h1>
+                    </div>
+                </div>
+            </div> --}}
         </div>
     </section>
 @endsection

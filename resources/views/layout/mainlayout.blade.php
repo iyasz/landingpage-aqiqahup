@@ -93,15 +93,19 @@
           <div class="container">
             <div class="row">
               <div class="col-12">
-                <div class="content-footer">
-                  <h3>FOLLOW OUR SOCIAL MEDIA</h3>
-                  <div class="">
+                <div class="content-footer text-center" >
+                  <div class="my-5">
+                    <a href=""><img src="/assets/img/logo.svg" width="170px" alt=""></a>
                   </div>
-                  <div class="">
-                    <a href="">Home</a>
-                    <a href="">Kebijakan Privasi</a>
-                    <a href="">Syarat dan Ketentuan</a>
-                    <a href="">Status Server</a>
+                  <div class="link-footer fw-500-p my-5">
+                    <a class="mx-1" href="/">Home</a>
+                    <a class="mx-1" href="https://aqiqahup.id/kebijakan-privasi.html">Kebijakan Privasi</a>
+                    <a class="mx-1" href="https://aqiqahup.id/syarat-ketentuan.html">Syarat dan Ketentuan</a>
+                    <a class="mx-1" href="https://stats.uptimerobot.com/PAEDgS0Xgm">Status Server</a>
+                    <p class="fw-300-p fs-s-sm mt-2">Jalan Joglo Raya No. 52 B Jakarta Barat</p>
+                  </div>
+                  <div class=" my-5">
+                    <p class="fw-300-p fs-s-sm">&copy; Copyright <strong> PT Solusi Data Pratama</strong>. All Rights Reserved</p>
                   </div>
                 </div>
               </div>
