@@ -53,9 +53,9 @@ class sendMail extends Mailable
             ],
         );
 
-        return $this->subject($this->dataMail['pertanyaan'])
-                    ->from($this->dataMail['fullName'])
-                    ->view('mail.sendmail');
+        // return $this->subject($this->dataMail['pertanyaan'])
+        //             ->from($this->dataMail['fullName'])
+        //             ->view('mail.sendmail');
 
         
     }

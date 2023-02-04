@@ -29,6 +29,9 @@
     {{-- <link rel="stylesheet" href="bower_components/aos/dist/aos.css" /> --}}
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    {{-- izimodal  --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.6.1/css/iziModal.css">
+
     <link rel="stylesheet" href="/assets/css/custom.css">
   </head>
   <body>
@@ -89,6 +92,10 @@
 
         @yield('content')
 
+        <div class="" id="modal">
+          <p>kanjut</p>
+        </div>
+
         <section id="footer" class="mt-5">
           <div class="container">
             <div class="row">
@@ -99,8 +106,8 @@
                   </div>
                   <div class="link-footer fw-500-p my-5">
                     <a class="mx-1" href="/">Home</a>
-                    <a class="mx-1" href="https://aqiqahup.id/kebijakan-privasi.html">Kebijakan Privasi</a>
-                    <a class="mx-1" href="https://aqiqahup.id/syarat-ketentuan.html">Syarat dan Ketentuan</a>
+                    <a class="mx-1" data-izimodal-zindex="20000" data-izimodal-open="#modal" data-izimodal-transitionin="fadeInDown" href="">Kebijakan Privasi</a>
+                    <a class="mx-1" href="https://aqiqahup.id/syarat-ketentuan.html">Syarat Ketentuan</a>
                     <a class="mx-1" href="https://stats.uptimerobot.com/PAEDgS0Xgm">Status Server</a>
                     <p class="fw-300-p fs-s-sm mt-2">Jalan Joglo Raya No. 52 B Jakarta Barat</p>
                   </div>
@@ -138,6 +145,9 @@
 
     {{-- popper js  --}}
     <script src="https://unpkg.com/@popperjs/core@2"></script>
+
+    {{-- izimodal  --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.6.1/js/iziModal.min.js"></script>
 
     {{-- script  --}}
     <script src="/assets/js/main.js"></script>
