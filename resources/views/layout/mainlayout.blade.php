@@ -106,7 +106,7 @@
                   </div>
                   <div class="link-footer fw-500-p my-5">
                     <a class="mx-1" href="/">Home</a>
-                    <a class="mx-1" data-izimodal-zindex="20000" data-izimodal-open="#modal" data-izimodal-transitionin="fadeInDown" href="">Kebijakan Privasi</a>
+                    <a class="mx-1" data-izimodal-zindex="20000" data-izimodal-preventclose="" data-izimodal-open="#modal" data-izimodal-transitionin="fadeInDown" href="">Kebijakan Privasi</a>
                     <a class="mx-1" href="https://aqiqahup.id/syarat-ketentuan.html">Syarat Ketentuan</a>
                     <a class="mx-1" href="https://stats.uptimerobot.com/PAEDgS0Xgm">Status Server</a>
                     <p class="fw-300-p fs-s-sm mt-2">Jalan Joglo Raya No. 52 B Jakarta Barat</p>
@@ -120,7 +120,7 @@
           </div>
         </section>
 
-      <div id="loader"></div>
+      <div id="loader">KONTOL</div>
   
         <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
