@@ -27,10 +27,7 @@
                         </div>
                         <h1 data-aos="fade-up" data-aos-delay="100" class="text-main fw-600-p">Pengusaha Aqiqah <br> Itu
                             Berani <span> SCALE UP!</span></h1>
-                        <p data-aos="fade-up" data-aos-delay="150" class="fw-300-p fs-sm mt-4 ">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit.
-                            illo porro provident <br> blanditiis est, amet autem voluptatem minima magnam a sed dolore <br>
-                            dolores Cupiditate, a? Aliquid, asperiores totam! .</p>
+                        <p data-aos="fade-up" data-aos-delay="150" class="fw-300-p fs-sm mt-4 ">Sambutlah kebahagiaan dalam keluarga dengan acara aqiqah yang <br> istimewa. Percayakan perencanaannya pada kami dan nikmati <br> momen berharga bersama orang-orang terdekat Anda.</p>
                         <div class="btn-main" data-aos="fade-up" data-aos-delay="250">
                             <a href="https://app.aqiqahup.id/register?ref=website"
                                 class="btn btn-primary btn-daftar fw-500-p py-2">Daftar Sekarang <i
@@ -112,18 +109,15 @@
                 <div class="col-lg-5 col-md-10 col-11 gy-5">
                     <div class="about title-1 mb-5">
                         <h3 class="fw-600-p mb-3">Fitur Formulir pemesanan</h3>
-                        <p class="fw-300-p ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum veritatis
-                            iure assumenda.</p>
+                        <p class="fw-300-p ">Isi formulir pemesanan acara aqiqah Anda dengan mudah dan cepat. Kami siap membantu Anda merencanakan acara si kecil sesuai kebutuhan.</p>
                     </div>
                     <div class="about title-2 mb-5">
                         <h3 class="fw-600-p mb-3">Management order yang terpusat dan mudah dimengerti</h3>
-                        <p class="fw-300-p ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium cumque
-                            officia veritatis in. Architecto totam distinctio, ullam voluptatibus molestias magnam.</p>
+                        <p class="fw-300-p ">Pantau dan kelola pesanan acara aqiqah Anda dengan mudah dan terpusat melalui fitur Management Order kami.</p>
                     </div>
                     <div class="about title-3 mb-3">
                         <h3 class="fw-600-p mb-3">Laporan akuntasi yang lengkap dan otomatis</h3>
-                        <p class="fw-300-p ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores commodi esse
-                            velit laborum iure repellat voluptate quam facere neque asperiores voluptatum quia sapiente!</p>
+                        <p class="fw-300-p ">Dapatkan laporan akuntasi yang lengkap dan otomatis untuk acara aqiqah Anda, sehingga Anda dapat fokus pada momen berharga bersama keluarga.</p>
                     </div>
                 </div>
                 <div
@@ -146,9 +140,7 @@
                     <div class="about-video-text">
                         <h4 class="mb-0 fw-500-p">Akuntasi Lebih Mudah!</h4>
                         <h1 class="fw-600-p">Marketing Dibikin Mudah Aja!</h1>
-                        <p class="mt-4 fw-300-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eaque
-                            aliquam nisi repudiandae quas repellendus doloribus assumenda reiciendis similique quae totam,
-                            dicta neque!</p>
+                        <p class="mt-4 fw-300-p">Kelola keuangan acara aqiqah Anda dengan mudah dan transparan melalui fitur akuntansi kami. Dapatkan laporan keuangan lengkap secara otomatis dan penuh akurasi</p>
                     </div>
                     <div class="about-button">
                         <a class="btn btn-primary btn-daftar fw-500-p py-2 mt-3"
@@ -535,24 +527,6 @@
                     </div>
                 </form>
                 </div>
-            {{-- </div>
-            <div class="row mt-5">
-                <div class="col-lg-4 col-md-10 col-12">
-                    <div class="card-contact">
-                        <h1>ADDRESS</h1>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-10 col-12">
-                    <div class="card-contact">
-                        <h1>PHONE NUMBER</h1>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-10 col-12">
-                    <div class="card-contact">
-                        <h1>EMAIL</h1>
-                    </div>
-                </div>
-            </div> --}}
         </div>
     </section>
 @endsection
