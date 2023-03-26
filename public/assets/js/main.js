@@ -32,24 +32,24 @@ $(".btn-play").on("click", function(e) {
 
 window.onscroll = function() {
     scrollFunction()
-    scrollTopIcon()
+    // scrollTopIcon()
 };
 
 function scrollFunction() {
     if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-        document.getElementById("navbar").style.boxShadow = "0 .125rem .25rem rgba(0,0,0,0.08)";
+        document.getElementById("navbar").style.boxShadow = "0 .125rem .25rem rgba(0,0,0,0.07)";
     } else {
         document.getElementById("navbar").style.boxShadow = "none";
     }
 }
 
-function scrollTopIcon() {
-    if (document.body.scrollTop > 180 || document.documentElement.scrollTop > 180) {
-        document.getElementById("top-icon").style.bottom = "40px";
-    } else {
-        document.getElementById("top-icon").style.bottom = "-40px";
-    }
-}
+// function scrollTopIcon() {
+//     if (document.body.scrollTop > 180 || document.documentElement.scrollTop > 180) {
+//         document.getElementById("top-icon").style.bottom = "40px";
+//     } else {
+//         document.getElementById("top-icon").style.bottom = "-40px";
+//     }
+// }
 
 // end scroll items 
 
@@ -152,60 +152,7 @@ var swiper = new Swiper(".mySwiper", {
 
 // popper js 
 
-const button = document.querySelector('#button');
-const tooltip = document.querySelector('#tooltip');
-
-const popperInstance = Popper.createPopper(button, tooltip, {
-  modifiers: [
-    {
-      name: 'offset',
-      options: {
-        offset: [0, 8],
-      },
-    },
-  ],
-});
-
-function show() {
-  // Make the tooltip visible
-  tooltip.setAttribute('data-show', '');
-
-  // Enable the event listeners
-  popperInstance.setOptions((options) => ({
-    ...options,
-    modifiers: [
-      ...options.modifiers,
-      { name: 'eventListeners', enabled: true },
-    ],
-  }));
-
-  // Update its position
-  popperInstance.update();
-}
-
-function hide() {
-  // Hide the tooltip
-  tooltip.removeAttribute('data-show');
-
-  // Disable the event listeners
-  popperInstance.setOptions((options) => ({
-    ...options,
-    modifiers: [
-      ...options.modifiers,
-      { name: 'eventListeners', enabled: false },
-    ],
-  }));
-}
-
-const showEvents = ['mouseenter', 'focus'];
-const hideEvents = ['mouseleave', 'blur'];
-
-showEvents.forEach((event) => {
-  button.addEventListener(event, show);
-});
-
-hideEvents.forEach((event) => {
-  button.addEventListener(event, hide);
-});
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
 // end popper 

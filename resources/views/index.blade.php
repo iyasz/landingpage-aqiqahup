@@ -191,11 +191,7 @@
                                         <p class="fw-300-p mb-0 mt-2"> <span>Unlimited</span> Formulir Pemesanan</p>
                                     </div>
                                     <div class="co ms-auto">
-                                        <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                        <div id="tooltip" role="tooltip">
-                                            Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                            <div id="arrow" data-popper-arrow></div>
-                                          </div>
+                                        <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Dengan keleluasaan unlimited dan kemudahan penggunaan, Anda dapat memesan dengan mudah dan cepat." class="bi bi-question-circle"></i>
                                     </div>
                                 </div>
                                 <div class="d-flex mt-2">
@@ -206,11 +202,7 @@
                                         <p class="fw-300-p mb-0 mt-2">Single <span>Kitchen</span></p>
                                     </div>
                                     <div class="co ms-auto">
-                                        <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                        <div id="tooltip" role="tooltip">
-                                            Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                            <div id="arrow" data-popper-arrow></div>
-                                          </div>
+                                        <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Single kitchen atau hanya satu dapur yang bisa dipakai" class="bi bi-question-circle"></i>
                                     </div>
                                 </div>
                                 <div class="d-flex mt-2">
@@ -221,11 +213,7 @@
                                         <p class="fw-300-p mb-0 mt-2">Single <span>RPH</span></p>
                                     </div>
                                     <div class="co ms-auto">
-                                        <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                        <div id="tooltip" role="tooltip">
-                                            Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                            <div id="arrow" data-popper-arrow></div>
-                                          </div>
+                                        <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Single RPH atau hanya satu Rumah Potong Hewan yang bisa dipakai" class="bi bi-question-circle"></i>
                                     </div>
                                 </div>
                                 <div class="d-flex mt-2">
@@ -236,11 +224,7 @@
                                         <p class="fw-300-p mb-0 mt-2"><span>Basic</span> Accounting</p>
                                     </div>
                                     <div class="co ms-auto">
-                                        <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                        <div id="tooltip" role="tooltip">
-                                            Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                            <div id="arrow" data-popper-arrow></div>
-                                          </div>
+                                        <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Accounting hanya bersifat basic tetapi tetap lengkap" class="bi bi-question-circle"></i>
                                     </div>
                                 </div>
                                 <div class="d-flex mt-2">
@@ -251,11 +235,7 @@
                                         <p class="fw-300-p mb-0 mt-2"><span>Basic</span> User Management</p>
                                     </div>
                                     <div class="co ms-auto">
-                                        <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                        <div id="tooltip" role="tooltip">
-                                            Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                            <div id="arrow" data-popper-arrow></div>
-                                          </div>
+                                        <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="User manajemen hanya berupa basic" class="bi bi-question-circle"></i>
                                     </div>
                                 </div>
                             </div>
@@ -283,11 +263,7 @@
                                             <p class="fw-300-p mb-0 mt-2"> <span>Unlimited</span> Formulir Pemesanan</p>
                                         </div>
                                         <div class="co ms-auto">
-                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                            <div id="tooltip" role="tooltip">
-                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                                <div id="arrow" data-popper-arrow></div>
-                                              </div>
+                                            <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Dengan keleluasaan unlimited dan kemudahan penggunaan, Anda dapat memesan dengan mudah dan cepat." class="bi bi-question-circle"></i>
                                         </div>
                                     </div>
                                     <div class="d-flex mt-2">
@@ -298,11 +274,7 @@
                                             <p class="fw-300-p mb-0 mt-2">Multi <span>Kitchen</span></p>
                                         </div>
                                         <div class="co ms-auto">
-                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                            <div id="tooltip" role="tooltip">
-                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                                <div id="arrow" data-popper-arrow></div>
-                                              </div>
+                                            <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Multi kitchen untuk penggunaan dapur dengan multiple atau banyak" class="bi bi-question-circle"></i>
                                         </div>
                                     </div>
                                     <div class="d-flex mt-2">
@@ -313,11 +285,7 @@
                                             <p class="fw-300-p mb-0 mt-2">Multi <span>RPH</span></p>
                                         </div>
                                         <div class="co ms-auto">
-                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                            <div id="tooltip" role="tooltip">
-                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                                <div id="arrow" data-popper-arrow></div>
-                                              </div>
+                                            <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Multi RPH untuk penggunaan Rumah Potong Hewan dengan multiple atau banyak" class="bi bi-question-circle"></i>
                                         </div>
                                     </div>
                                     <div class="d-flex mt-2">
@@ -328,11 +296,7 @@
                                             <p class="fw-300-p mb-0 mt-2"><span>Pro</span> Accounting</p>
                                         </div>
                                         <div class="co ms-auto">
-                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                            <div id="tooltip" role="tooltip">
-                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                                <div id="arrow" data-popper-arrow></div>
-                                              </div>
+                                            <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Accounting sudah bersifat Pro dengan detail untuk tambah memudahkan accounting" class="bi bi-question-circle"></i>
                                         </div>
                                     </div>
                                     <div class="d-flex mt-2">
@@ -343,11 +307,7 @@
                                             <p class="fw-300-p mb-0 mt-2"><span>Multi</span> User Management</p>
                                         </div>
                                         <div class="co ms-auto">
-                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                            <div id="tooltip" role="tooltip">
-                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                                <div id="arrow" data-popper-arrow></div>
-                                              </div>
+                                            <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="User manajemen sudah bersifat Pro dengan detail untuk tambah memudahkan manage user" class="bi bi-question-circle"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -373,14 +333,10 @@
                                             <i class="bi bi-check full"></i>
                                         </div>
                                         <div class="header-card-resource text-start">
-                                            <p class="fw-300-p mb-0 mt-2"> <span>Semua</span> Fitur Pro</p>
+                                            <p class="fw-300-p mb-0 mt-2"> <span>Semua</span> Fitur Premium</p>
                                         </div>
                                         <div class="co ms-auto">
-                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                            <div id="tooltip" role="tooltip">
-                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                                <div id="arrow" data-popper-arrow></div>
-                                              </div>
+                                            <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Mendapatkan semua fitur pro/premium" class="bi bi-question-circle"></i>
                                         </div>
                                     </div>
                                     <div class="d-flex mt-2">
@@ -391,11 +347,7 @@
                                             <p class="fw-300-p mb-0 mt-2">Integrasi <span>Bank</span></p>
                                         </div>
                                         <div class="co ms-auto">
-                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                            <div id="tooltip" role="tooltip">
-                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                                <div id="arrow" data-popper-arrow></div>
-                                              </div>
+                                            <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Telah terintegrasi dengan bank" class="bi bi-question-circle"></i>
                                         </div>
                                     </div>
                                     <div class="d-flex mt-2">
@@ -406,11 +358,7 @@
                                             <p class="fw-300-p mb-0 mt-2"><span>Custom</span> Module</p>
                                         </div>
                                         <div class="co ms-auto">
-                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                            <div id="tooltip" role="tooltip">
-                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                                <div id="arrow" data-popper-arrow></div>
-                                              </div>
+                                            <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Custom module sesuka hati" class="bi bi-question-circle"></i>
                                         </div>
                                     </div>
                                     <div class="d-flex mt-2">
@@ -421,11 +369,7 @@
                                             <p class="fw-300-p mb-0 mt-2">Dedicated <span>Server</span></p>
                                         </div>
                                         <div class="co ms-auto">
-                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                            <div id="tooltip" role="tooltip">
-                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                                <div id="arrow" data-popper-arrow></div>
-                                              </div>
+                                            <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Dedicated server" class="bi bi-question-circle"></i>
                                         </div>
                                     </div>
                                     <div class="d-flex mt-2">
@@ -433,14 +377,10 @@
                                             <i class="bi bi-check full"></i>
                                         </div>
                                         <div class="header-card-resource text-start">
-                                            <p class="fw-300-p mb-0 mt-2">Dedicated <span>Suppoert</span></p>
+                                            <p class="fw-300-p mb-0 mt-2">Dedicated <span>Support</span></p>
                                         </div>
                                         <div class="co ms-auto">
-                                            <i id="button" aria-describedby="tooltip" class="bi bi-question-circle"></i>
-                                            <div id="tooltip" role="tooltip">
-                                                Mantap banget ancrit ini popper awdawdawdaw awodjajwdia jwidjaj diajwid awodjajwdia
-                                                <div id="arrow" data-popper-arrow></div>
-                                              </div>
+                                            <i id="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Dedicated support" class="bi bi-question-circle"></i>
                                         </div>
                                     </div>
                                 </div>
