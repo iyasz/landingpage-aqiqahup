@@ -92,8 +92,8 @@
 
         @yield('content')
 
-        <div class="" id="modal">
-          <p>kanjut</p>
+        <div class="my-3" id="modal">
+  
         </div>
 
         <section id="footer" class="mt-5">
@@ -106,7 +106,7 @@
                   </div>
                   <div class="link-footer fw-500-p my-5">
                     <a class="mx-1" href="/">Home</a>
-                    <a class="mx-1" data-izimodal-zindex="20000" data-izimodal-preventclose="" data-izimodal-open="#modal" data-izimodal-transitionin="fadeInDown" href="">Kebijakan Privasi</a>
+                    <a class="mx-1" data-bs-toggle="modal" data-bs-target="#exampleModal" href="">Kebijakan Privasi</a>
                     <a class="mx-1" href="https://aqiqahup.id/syarat-ketentuan.html">Syarat Ketentuan</a>
                     <a class="mx-1" href="https://stats.uptimerobot.com/PAEDgS0Xgm">Status Server</a>
                     <p class="fw-300-p fs-s-sm mt-2">Jalan Joglo Raya No. 52 B Jakarta Barat</p>
@@ -119,6 +119,71 @@
             </div>
           </div>
         </section>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-4" id="exampleModalLabel">Kebijakan <span class="text-primary">Privasi</span></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="mx-4 mt-2">
+
+                  <p>Selamat datang di AqiqahUP,</p>
+                  
+                  <p>Dengan menggunakan layanan AqiqahUP maka Anda setuju untuk terikat kepada syarat-syarat dan ketentuan berikut ini mengenai kebijakan privasi yang ditetapkan oleh Kami. Kami mungkin mengubah syarat-syarat dan kondisi ini sewaktu-waktu, dan oleh karenanya Anda diharapkan untuk melakukan pengecekan secara berkala.</p>
+      
+                  <h6 class="mt-4">Pendaftaran</h6>
+                  <p>Dengan melakukan pendaftaran, Anda menyatakan bahwa segala informasi dan perubahan-perubahannya yang Anda berikan, sekarang atau dimasa yang akan datang adalah akurat dan benar apa adanya. Apabila informasi dan termasuk perubahan-perubahannya yang Anda berikan tersebut ternyata terbukti tidak benar, maka dengan ini Kami menyatakan tidak bertanggung jawab atas segala akibat yang dapat terjadi sehubungan dengan pemberian informasi dan perubahan-perubahannya yang tidak benar tersebut.</p>
+      
+                  <h6 class="mt-4">Data-data/Informasi yang diperlukan</h6>
+                  <p class="mb-1">Untuk keperluan pendaftaran di AqiqahUP, Kami akan memerlukan data-data pribadi dari Anda antara lain sebagai berikut:</p>
+                  <li>Nama lengkap</li>
+                  <li>Alamat email</li>
+                  <li>Nomor HP / telepon selular</li>
+                  <li>Nama Usaha / Lembaga Aqiqah</li>
+                  <li>Deskripsi Usaha / Lembaga Aqiqah</li>
+                  <li>Data transaksi penjualan</li>
+      
+                  <p class="my-3">Bahwa semua informasi yang diberikan oleh Anda tersebut akan Kami simpan sebaik-baiknya dengan memperhatikan faktor keamanan.</p>
+      
+                  <h6>Tujuan Pengumpulan Data</h6>
+                  <p class="mb-1">Informasi dan data-data pribadi yang diperoleh oleh Kami sehubungan dengan Pendaftaran yang dilakukan oleh Anda, hanya akan digunakan antara lain untuk:</p>
+                  <ol type="1">
+                    <li>Memproses aplikasi dan/atau segala bentuk pendaftaran dan/atau komunikasi yang diajukan oleh Anda</li>
+                    <li>Melakukan komunikasi kepada Anda</li>
+                    <li>Memberikan tanggapan kepada Anda yang ingin mendapatkan keterangan dan/atau informasi lebih lanjut mengenai AqiqahUP</li>
+                    <li>Memberikan tanggapan kepada Anda yang ingin mendapatkan keterangan dan/atau informasi lebih lanjut mengenai AqiqahUP</li>
+                    <li>Pelaksanaan riset-riset guna pengembangan AqiqahUP, peningkatan pelayanan Kami dan/atau memenuhi permintaan Anda terhadap produk dan layanan yang disediakan oleh AqiqahUP</li>
+                  </ol>
+                  <h6>Pengungkapan informasi Pengguna</h6>
+                  <p class="mb-1">Bahwa kecuali untuk kepentingan pengumpulan data sebagaimana telah diungkapkan diatas, AqiqahUP tidak akan menjual, mengalihkan, mendistribusikan dan/atau membuka informasi dan data-data pribadi Anda kepada orang lain dan/atau Pihak Ketiga yang tidak berkepentingan.</p>
+                  <p>Dalam hal diperlukan dan/atau diperintahkan oleh Pengadilan dan/atau pejabat suatu instansi pemerintah Indonesia berdasarkan wewenang sah yang diberikan oleh ketentuan perundang-undangan, maka dalam rangka memenuhi perintah tersebut Kami dapat membuka akses atas informasi yang diperlukan sebagaimana dimaksud. Sehubungan dengan hal tersebut, maka Anda setuju untuk membebaskan Kami dari segala klaim, tuntutan, dan atau gugatan yang berkaitan dengan pemberian akses atas informasi tersebut.</p>
+      
+                  <h6>Cookies</h6>
+                  <p class="mb-1">Cookies adalah file kecil yang secara otomatis akan tersimpan dalam perangkat komputer Pengguna, untuk mengidentifikasi dan memantau koneksi jaringan Pengguna, sehingga memungkinkan Pengguna untuk mengakses layanan AqiqahUP secara optimal.</p>
+                  <p class="mb-1">Cookies tersebut tidak diperuntukkan untuk digunakan pada saat melakukan akses informasi / data lain yang Pengguna miliki di perangkat komputer Pengguna, selain dari yang telah Pengguna setujui untuk disampaikan.</p>
+                  <p>Walaupun secara otomatis perangkat komputer Pengguna akan menerima cookies, Pengguna dapat menentukan pilihan untuk melakukan modifikasi melalui pengaturan / setting browser Pengguna yaitu dengan memilih untuk menolak cookies.</p>
+
+                  <h6>Dukungan Keamanan Data</h6>
+                  <p>AqiqahUP melindungi setiap Data Pengguna yang disimpan dalam sistemnya, serta melindungi data tersebut dari akses, penggunaan, modifikasi, pengambilan dan/atau pengungkapan tidak sah dengan menggunakan sejumlah tindakan dan prosedur keamanan sebagai berikut:</p>
+                  <li><b>SSL,</b> untuk memastikan komunikasi antara anda dan AqiqahUP terenkripsi dengan baik melalui HTTPS, sehingga melindungi dari pencurian data saat transfer data di website</li>
+                  <li><b>Enkripsi,</b>Kami melakukan penyandian (Encryption) di data-data sensitif anda, seperti email, password, data toko dll. Ini akan menjamin bahwa hanya pihak yang berhak yang bisa melihat data anda.</li>
+                  <li><b>Layanan Cloud,</b> menggunakan layanan <b><a class="text-decoration-none" href="https://www.cloudkilat.com/">cloudkilat</a></b> yang selalu berusaha untuk meningkatkan keamanan data toko anda dengan menggunakan teknologi terkini dan mematuhi peraturan perundang-undangan yang berlaku untuk memenuhi harapan pihak-pihak terkait, dan untuk memastikan peningkatan kualitas yang berkelanjutan.</li>
+                  <li><b>Integrasi dengan Marketplace,</b> Kami menyediakan integrasi yang aman dan telah diotorisasi oleh Marketplace ( <b><a class="text-decoration-none" href="https://www.developer.tokopedia.com/">Tokopedia</a></b> dan  <b><a class="text-decoration-none" href="https://www.open.shopee.com/">Shopee</a></b>) untuk menghubungkan informasi toko anda ke dashboard. Tujuan integrasi data ini untuk memberikan kemudahan dalam mengelola data sehingga memberikan informasi yang membantu proses bisnis anda.</li>
+                  <li><b>Otorisasi dengan Sosial Media,</b> Kami menjamin keamanan yang memungkinkan pengguna untuk melakukan otorisasi dari akun sosial media. Informasi autentikasi mencakup “nama, alamat email pengguna, dan kredensial akses terenkripsi”. Pengguna juga diberitahu bahwa informasi ini dapat digunakan “untuk tujuan yang dijelaskan dalam pernyataan ini, dan ini juga dapat digunakan untuk memverifikasi kredensial Anda dengan pihak ketika (Facebook dan Google).</li>
+
+                  <h6 class="mt-3">Hukum</h6>
+                  <p>Syarat-syarat dan ketentuan dalam Kebijakan Privasi ini tunduk kepada hukum di wilayah Negara Kesatuan Republik Indonesia.</p>
+
+                  <h6>Hubungi Kami</h6>
+                  <p>Dalam hal Pengguna memiliki pertanyaan, komentar, keluhan, atau klaim mengenai Kebijakan Privasi ini atau Pengguna ingin mendapatkan akses dan/atau melakukan koreksi terhadap Data Pribadi miliknya, silakan hubungi email halo@aqiqahup.id</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
       <div id="loader"></div>
   

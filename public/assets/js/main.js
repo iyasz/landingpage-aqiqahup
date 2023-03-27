@@ -78,7 +78,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // izimodal 
 
-$("#modal").iziModal();
+$("#modal").iziModal({
+  width: 1100,
+  closeOnEscape: true,
+  closeButton: true,
+});
 
 // $(document).on('click', '.trigger', function (event) {
 //   event.preventDefault();
