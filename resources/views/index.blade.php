@@ -61,7 +61,8 @@
                 </div>
                 <div class="col-lg-4">
                     <div data-aos="zoom-out" data-aos-delay="250" class="row justify-content-center">
-                        <img width="330px" class="rounded-circle" src="/assets/img/mainimg.png" alt="">
+                        <img width="325px" class="rounded-circle" style="background-webkit-transform: scaleX(-1);
+                        transform: scaleX(-1);" src="https://expressaqiqah.com/wp-content/uploads/2022/06/FOTO_FIRA2-1.png" alt="">
                     </div>
                 </div>
             </div>

@@ -92,33 +92,7 @@
 
         @yield('content')
 
-        <div class="my-3" id="modal">
-  
-        </div>
-
-        <section id="footer" class="mt-5">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <div class="content-footer text-center" >
-                  <div class="my-5">
-                    <a href=""><img src="/assets/img/logo.svg" width="170px" alt=""></a>
-                  </div>
-                  <div class="link-footer fw-500-p my-5">
-                    <a class="mx-1" href="/">Home</a>
-                    <a class="mx-1" data-bs-toggle="modal" data-bs-target="#exampleModal" href="">Kebijakan Privasi</a>
-                    <a class="mx-1" href="https://aqiqahup.id/syarat-ketentuan.html">Syarat Ketentuan</a>
-                    <a class="mx-1" href="https://stats.uptimerobot.com/PAEDgS0Xgm">Status Server</a>
-                    <p class="fw-300-p fs-s-sm mt-2">Jalan Joglo Raya No. 52 B Jakarta Barat</p>
-                  </div>
-                  <div class=" my-5">
-                    <p class="fw-300-p fs-s-sm">&copy; Copyright <strong> PT Solusi Data Pratama</strong>. All Rights Reserved</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div id="loader"></div>
 
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -127,7 +101,7 @@
                 <h1 class="modal-title fs-4" id="exampleModalLabel">Kebijakan <span class="text-primary">Privasi</span></h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
+              <div class="modal-body privasi">
                 <div class="mx-4 mt-2">
 
                   <p>Selamat datang di AqiqahUP,</p>
@@ -185,7 +159,29 @@
           </div>
         </div>
 
-      <div id="loader"></div>
+        <section id="footer" class="mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="content-footer text-center" >
+                  <div class="my-5">
+                    <a href=""><img src="/assets/img/logo.svg" width="170px" alt=""></a>
+                  </div>
+                  <div class="link-footer fw-500-p my-5">
+                    <a class="mx-1" href="/">Home</a>
+                    <a class="mx-1" data-bs-toggle="modal" data-bs-target="#exampleModal" href="">Kebijakan Privasi</a>
+                    <a class="mx-1" href="https://aqiqahup.id/syarat-ketentuan.html">Syarat Ketentuan</a>
+                    <a class="mx-1" href="https://stats.uptimerobot.com/PAEDgS0Xgm">Status Server</a>
+                    <p class="fw-300-p fs-s-sm mt-2">Jalan Joglo Raya No. 52 B Jakarta Barat</p>
+                  </div>
+                  <div class=" my-5">
+                    <p class="fw-300-p fs-s-sm">&copy; Copyright <strong> PT Solusi Data Pratama</strong>. All Rights Reserved</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
   
         <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
