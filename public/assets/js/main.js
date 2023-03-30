@@ -1,6 +1,6 @@
 // scroll func 
 
-$(".nav-link").on("click", function(e) {
+$(".nav-link.nav-click").on("click", function(e) {
     e.preventDefault()
 
     var linkHref = $(this).attr("href");

@@ -61,16 +61,16 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item mx-1">
-                      <a class="nav-link fw-400-r" href="#home">Home</a>
+                      <a class="nav-link nav-click fw-400-r" href="#home">Home</a>
                     </li>
                     <li class="nav-item mx-1">
-                      <a class="nav-link fw-400-r" href="#about">About Us</a>
+                      <a class="nav-link nav-click fw-400-r" href="#about">About Us</a>
                     </li>
                     <li class="nav-item mx-1">
-                      <a class="nav-link fw-400-r" href="#paket">Paket</a>
+                      <a class="nav-link nav-click fw-400-r" href="#paket">Paket</a>
                     </li>
                     <li class="nav-item mx-1">
-                      <a class="nav-link fw-400-r" href="#kontak">Contact</a>
+                      <a class="nav-link nav-click fw-400-r" href="#kontak">Contact</a>
                     </li>
                     <li class="nav-item mx-1">
                       <a class="nav-link fw-400-r" href="https://aqiqahup.tawk.help/">Bantuan</a>
@@ -94,7 +94,7 @@
 
       <div id="loader"></div>
 
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modalPrivasi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
               <div class="modal-header">
@@ -159,6 +159,106 @@
           </div>
         </div>
 
+        <div class="modal fade" id="modalSyarat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-4" id="exampleModalLabel">Syarat <span class="text-primary">Ketentuan</span></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body privasi">
+                <div class="mx-4 mt-2">
+
+                  <p>Selamat datang di <b>AQIQAHUP</b>,</p>
+                  
+                  <p>Sebelum melakukan akses dan menggunakan layanan <b>AQIQAHUP</b>, kami menyarankan agar Anda membaca Syarat dan Ketentuan terlebih dahulu secara cermat. Dengan menggunakan layanan <b>AQIQAHUP</b>, maka Anda menyatakan bahwa Anda setuju untuk terikat dengan Syarat dan Ketentuan yang ditetapkan serta kebijakan mengenai perubahan atau perbaikan Syarat dan Ketentuan di kemudian hari.</p>
+
+                  <p>Anda dipersilahkan untuk tidak menggunakan layanan <b>AQIQAHUP</b> jika tidak setuju untuk terikat dengan Syarat dan Ketentuan ini.</p>
+
+                  <ol type="1">
+                    <li>
+                      <p class="mb-1">Definisi</p>
+                      <ol type="1">
+                        <li class="mb-1">PT. Solusi Data Pratama adalah pemilik dan operator dari layanan <b>AQIQAHUP</b>, sebuah aplikasi untuk membantu Lembaga Aqiqah dalam menjalankan operasional dan pelayanan Aqiqah untuk pelanggannya.</li>
+                        <li class="mb-1">Layanan <b>AQIQAHUP</b> adalah sebatas mencatat transaksi penjualan yang anda lakukan diluar Layanan ini, dan yang dikelola melalui layanan ini.</li>
+                        <li class="mb-1">Tenant atau Lembaga adalah nama usaha aqiqah Anda yang anda jalankan diluar layanan <b>AQIQAHUP.</b></li>
+                        <li class="mb-1">Pengguna adalah orang yang terdaftar atau memiliki akun di layanan <b>AQIQAHUP.</b></li>
+                        <li class="mb-1">Produk adalah barang yang dijual oleh Pengguna yang kemudian diunggah di layanan <b>AQIQAHUP.</b></li>
+                        <li class="mb-1">Customer adalah orang yang melakukan transaksi penjualan dengan pihak Pengguna, yang kemudian tercatat di layanan <b>AQIQAHUP.</b></li>
+                      </ol>
+                    </li>
+                    <li>
+                      <p class="mb-1">Akun, Password, dan Keamanan</p>
+                      <ol type="1">
+                        <li class="mb-1">Pengguna dengan ini menyatakan bahwa pengguna adalah orang yang cakap dan mampu untuk mengikatkan dirinya dalam sebuah perjanjian yang sah menurut hukum.</li>
+                        <li class="mb-1">Pengguna dapat bertidak sebagai “Supplier” dan “Reseller / Dropshipper”.- Supplier memiliki kewenangan untuk mengatur ketersediaan atau stok barang, dan bertanggung jawab secara penuh kepada Customer terhadap pemesanan barang tersebut. - Reseller / Dropshipper berkewajiban berhubungan dengan Supplier-nya secara langsung untuk mengetahui stok barang dan bertanggung jawab kepada Customer terhadap pemesanan barang tersebut.</li>
+                        <li class="mb-1"><b>AQIQAHUP</b> memiliki kewenangan untuk menutup akun Pengguna baik sementara maupun permanen apabila didapati adanya tindakan kecurangan atau pelanggaran Syarat & ketentuan dan/atau hukum yang berlaku.</li>
+                        <li class="mb-1">Pengguna bertanggung jawab secara pribadi untuk menjaga kerahasiaan akun dan password untuk semua aktivitas yang terjadi dalam akun Pengguna.</li>
+                        <li class="mb-1"><b>AQIQAHUP</b> tidak akan meminta password akun Pengguna untuk alasan apapun, oleh karena itu <b>AQIQAHUP</b> menghimbau Pengguna agar tidak memberikan password akun Anda kepada pihak manapun, baik kepada pihak ketiga maupun kepada pihak yang mengatasnamakan <b>AQIQAHUP.</b></li>
+                        <li class="mb-1">Pengguna dengan ini menyatakan bahwa <b>AQIQAHUP</b> tidak bertanggung jawab atas kerugian atau kerusakan yang timbul dari penyalahgunaan akun Pengguna.</li>
+                      </ol>
+                    </li>
+                    <li>
+                      <p class="mb-1">Keanggotaan dan Pembayaran</p>
+                      <ol type="1">
+                        <li class="mb-1">Keanggotaan ada dua jenis yaitu Akun Basic dan Akun Pro.</li>
+                        <li class="mb-1">Akun Basic dan Akun Pro adalah akun berbayar dengan masa aktif untuk periode tertentu.</li>
+                        <li class="mb-1">Akun Pro akan mendapatkan fitur, fasilitas dan layanan ekstra sesuai ketentuan <b>AQIQAHUP.</b></li>
+                        <li class="mb-1">Pengguna Akun Basic dan Pro wajib melakukan pembayaran sebelum Layanan dapat digunakan.</li>
+                        <li class="mb-1">Pengguna memahami dan menyetujui seluruh biaya penggunaan Layanan <b>AQIQAHUP</b> termasuk PPN (Pajak Pertambahan Nilai).</li>
+                        <li class="mb-1">Pembayaran untuk pepanjangan layanan Akun Premium selambat-lambatnya 14 (empat belas) hari sebelum batas waktu berakhirnya layanan.</li>
+                      </ol>
+                    </li>
+                    <li>
+                      <p class="mb-1">Produk</p>
+                      <ol type="1">
+                        <li class="mb-1">Pengguna memahami dan menyetujui bahwa segala jenis Produk yang diunggah di layanan <b>AQIQAHUP</b> adalah tanggung jawab Pengguna.</li>
+                        <li class="mb-1"><b>AQIQAHUP</b> tidak bisa memantau jenis Produk apa saja yang diperjual-belikan Pengguna yang tercatat di layanan <b>AQIQAHUP</b>, maka dari itu segala bentuk penyalahgunaan Produk, Hak Cipta, ataupun yang melanggar ketentuan hukum yang berlaku di Indonesia adalah diluar tanggung jawab <b>AQIQAHUP.</b></li>
+                      </ol>
+                    </li>
+                    <li>
+                      <p class="mb-1">Transaksi Penjualan</p>
+                      <ol type="1">
+                        <li class="mb-1">Segala transaksi penjualan antara Pengguna dan Customer adalah diluar layanan <b>AQIQAHUP</b> dan Pengguna mengerti dan menyetujui bahwa Pengguna bertanggung-jawab atas hal tersebut.</li>
+                        <li class="mb-1"><b>AQIQAHUP</b> menyediakan beberapa akun bank pembayaran, namun untuk penyelesaian pembayaran seperti konfirmasi pembayaran dan lain-lain adalah diluar layanan <b>AQIQAHUP.</b></li>
+                      </ol>
+                    </li>
+                    <li>
+                      <p class="mb-1">Tarif Pengiriman</p>
+                      <ol type="1">
+                        <li class="mb-1">Pengguna memahami dan mengerti bahwa <b>AQIQAHUP</b> telah melakukan usaha sebaik mungkin untuk memberikan informasi tarif pengiriman berdasarkan layanan jasa pengiriman barang secara akurat, namun <b>AQIQAHUP</b> tidak dapat menjamin keakuratan data tersebut dengan yang ada pada cabang setempat.</li>
+                      </ol>
+                    </li>
+                    <li>
+                      <p class="mb-1">Pengiriman Barang</p>
+                      <ol type="1">
+                        <li class="mb-1">Pengiriman Barang dalam layanan <b>AQIQAHUP</b> wajib menggunakan jasa perusahaan ekspedisi yang disediakan oleh <b>AQIQAHUP.</b></li>
+                        <li class="mb-1">Pengguna memiliki hak untuk menggunakan perusahaan expedisi lain, namun <b>AQIQAHUP</b> tidak menyediakan layanan tarif pengiriman dan pelacakan resi pengiriman.</li>
+                        <li class="mb-1">Setiap ketentuan berkenaan dengan proses pengiriman barang adalah wewenang sepenuhnya penyedia jasa layanan pengiriman barang.</li>
+                        <li class="mb-1">Pengguna memahami dan menyetujui bahwa setiap permasalahan yang terjadi pada saat proses pengiriman barang oleh penyedia jasa layanan pengiriman barang adalah merupakan tanggung jawab penyedia jasa layanan pengiriman.</li>
+                      </ol>
+                    </li>
+                    <li>
+                      <p class="mb-1">Penolakan Jaminan dan Batasan Tanggung Jawab</p>
+                      <ol type="1">
+                        <li class="mb-1"><b>AQIQAHUP</b> selalu berupaya untuk menjaga Layanan <b>AQIQAHUP</b> aman, nyaman, dan berfungsi dengan baik, tapi kami tidak dapat menjamin operasi terus-menerus atau akses ke Layanan kami dapat selalu sempurna. Informasi dan data dalam aplikasi <b>AQIQAHUP</b> memiliki kemungkinan tidak terjadi secara real time.</li>
+                        <li class="mb-1">Pengguna setuju bahwa Anda memanfaatkan Layanan <b>AQIQAHUP</b> atas risiko Pengguna sendiri, dan Layanan <b>AQIQAHUP</b> diberikan kepada Anda pada “SEBAGAIMANA ADANYA” dan “SEBAGAIMANA TERSEDIA”.</li>
+                        <li class="mb-1">Sejauh diizinkan oleh hukum yang berlaku, <b>AQIQAHUP</b> adalah tidak bertanggung jawab, dan Anda setuju untuk tidak menuntut <b>AQIQAHUP</b> bertanggung jawab, atas segala kerusakan atau kerugian (termasuk namun tidak terbatas pada hilangnya data, uang, reputasi, keuntungan, atau kerugian tak berwujud lainnya) yang diakibatkan secara langsung atau tidak langsung.</li>
+                      </ol>
+                    </li>
+                    <li>
+                      <p class="mb-1">Pembaharuan</p>
+                      <ol type="1">
+                        <li class="mb-1">Syarat & ketentuan ini mungkin diubah dan/atau diperbaharui dari waktu ke waktu tanpa pemberitahuan sebelumnya. <b>AQIQAHUP</b> menyarankan Anda untuk membaca secara seksama dan memeriksa halaman Syarat & ketentuan ini dari waktu ke waktu untuk mengetahui perubahan apapun. Dengan tetap mengakses dan menggunakan layanan <b>AQIQAHUP</b>, maka pengguna dianggap menyetujui perubahan-perubahan dalam Syarat & ketentuan.</li>
+                      </ol>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <section id="footer" class="mt-5">
           <div class="container">
             <div class="row">
@@ -169,8 +269,8 @@
                   </div>
                   <div class="link-footer fw-500-p my-5">
                     <a class="mx-1" href="/">Home</a>
-                    <a class="mx-1" data-bs-toggle="modal" data-bs-target="#exampleModal" href="">Kebijakan Privasi</a>
-                    <a class="mx-1" href="https://aqiqahup.id/syarat-ketentuan.html">Syarat Ketentuan</a>
+                    <a class="mx-1" data-bs-toggle="modal" data-bs-target="#modalPrivasi" href="">Kebijakan Privasi</a>
+                    <a class="mx-1" data-bs-toggle="modal" data-bs-target="#modalSyarat" href="https://aqiqahup.id/syarat-ketentuan.html">Syarat Ketentuan</a>
                     <a class="mx-1" href="https://stats.uptimerobot.com/PAEDgS0Xgm">Status Server</a>
                     <p class="fw-300-p fs-s-sm mt-2">Jalan Joglo Raya No. 52 B Jakarta Barat</p>
                   </div>

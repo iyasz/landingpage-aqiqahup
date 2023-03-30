@@ -18,8 +18,4 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/aqiqah', function () {
-    return view('aqiqaj');
-});
-
 Route::post('/store', [sendmailController::class, 'index']);
