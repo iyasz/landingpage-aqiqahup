@@ -428,46 +428,18 @@
                             </div>
                         </div>
                         <div class="content-header">
-                            <h1 class="fw-600-p">Interested? <span> Contact us!</span></h1>
-                        <p class="fw-300-p">Presentasi dengan mengisi formulir di bawah ini. Team bussines  kami akan segera menghubungi anda :</p>
+                            <h1 class="fw-600-p">Interested? <span> See us!</span></h1>
+                        <p class="fw-300-p">Lokasi ini adalah tempat utama perusahaan kami, Perusahaan kami berpusat di lokasi ini. :</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row mt-4">
-                <div class="col-lg-6 col-md-12 col-12">
+                <div class="col-12">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3234211480717!2d106.73792901476904!3d-6.221014495496669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f0b3439247b1%3A0xc3490e6b265e33c5!2sPT%20Solusi%20Data%20Pratama!5e0!3m2!1sen!2sid!4v1667997657966!5m2!1sen!2sid" frameborder="0" width="100%" height="300px" allowfullscreen></iframe>
                 </div>
-                <div class="col-lg-6 col-md-12 col-12">
-                    <form action="/store" method="post">
-                    @csrf
-                    <div class="form-contact mt-4 mt-lg-0 mt-md-4">
-                        <label>Nama Lengkap</label>
-                        <input autocomplete="off" type="text" class="form-control @error('fullName') is-invalid @enderror" value="{{ old('fullName') }}" name="fullName">
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="form-contact">
-                                <label>Email</label>
-                                <input autocomplete="off" type="text" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" name="email">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="form-contact">
-                                <label>No Whatsapp</label>
-                                <input autocomplete="off" type="number" value="{{ old('no_wa') }}" class="form-control @error('no_wa') is-invalid @enderror" name="no_wa">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-contact">
-                        <label>Pertanyaan</label>
-                        <textarea autocomplete="off" name="pertanyaan" class="form-control" style="height: 125px">{{ old('pertanyaan') }}</textarea>
-                    </div>
-                    <div class="text-end">
-                        <button type="submit" class="btn btn-primary py-2 px-3 fw-500-p">Submit</button>
-                    </div>
-                </form>
-                </div>
+              
+        </div>
         </div>
     </section>
 @endsection

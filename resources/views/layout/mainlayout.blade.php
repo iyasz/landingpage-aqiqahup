@@ -75,15 +75,6 @@
                     <li class="nav-item mx-1">
                       <a class="nav-link fw-400-r" href="https://aqiqahup.tawk.help/">Bantuan</a>
                     </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="bi bi-brightness-high-fill"></i>
-                      </a>
-                      <ul class="dropdown-menu dropdown-menu-end" >
-                        <li><a class="dropdown-item" href="#"><i class="bi bi-brightness-high-fill"></i> Light</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="bi bi-moon-stars-fill"></i> Dark</a></li>
-                      </ul>
-                    </li>
                   </ul>
                 </div>
               </div>
