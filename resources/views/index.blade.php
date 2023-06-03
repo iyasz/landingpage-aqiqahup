@@ -2,20 +2,6 @@
 
 @section('content')
 
-@if (SESSION('success'))
-<script>
-    iziToast.show({
-        icon: "fa-regular fa-circle-check",
-        message: "{{SESSION('success')}}",
-        position: "topCenter",
-        drag: false,
-        pauseOnHover: false,
-        color: "green",
-        iconUrl: null,
-        timeout: 4100,
-      });</script>
-@endif
-
     <section id="home">
         <div class="container">
             <div class="row mt-5">
@@ -38,14 +24,13 @@
                         <div data-aos="fade-up" data-aos-delay="250"
                             class="statistik-home-main d-flex mt-5 justify-content-evenly justify-content-md-evenly justify-content-lg-start">
                             <div class="statistik text-center me-lg-5 me-md-4 me-4">
-                                <h2 data-purecounter-start="0" data-purecounter-end="400" class="fw-600-p mb-0 purecounter">
-                                    +</h2>
+                                <h2 data-purecounter-start="0" data-purecounter-end="400" class="fw-600-p mb-0 purecounter"></h2>
                                 <p class="fw-500-p fs-s-sm mt-3">Pengguna</p>
                             </div>
                             <div class="statistik text-center me-lg-5 me-md-4 me-4">
-                                <h2 data-purecounter-start="0" data-purecounter-end="20" class="fw-600-p mb-0 purecounter">
+                                <h2 data-purecounter-start="0" data-purecounter-end="6" class="fw-600-p mb-0 purecounter">
                                 </h2>
-                                <p class="fw-500-p fs-s-sm mt-3">Partner</p>
+                                <p class="fw-500-p fs-s-sm mt-3">Relation</p>
                             </div>
                             <div class="statistik text-center me-lg-5 me-md-4 me-4">
                                 <h2 data-purecounter-start="0" data-purecounter-end="13" class="fw-600-p mb-0 purecounter">
@@ -424,7 +409,7 @@
                     <div class="contact-header-main text-center">
                         <div class="d-flex justify-content-center ">
                             <div class="text-info-main px-2 py-1 rounded-2 mb-1 mt-4">
-                                <p class="mb-0 fs-s-sm fw-300-p">#ContactUs</p>
+                                <p class="mb-0 fs-s-sm fw-300-p">#Location</p>
                             </div>
                         </div>
                         <div class="content-header">

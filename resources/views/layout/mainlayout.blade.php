@@ -70,7 +70,7 @@
                       <a class="nav-link nav-click fw-400-r" href="#paket">Paket</a>
                     </li>
                     <li class="nav-item mx-1">
-                      <a class="nav-link nav-click fw-400-r" href="#kontak">Contact</a>
+                      <a class="nav-link nav-click fw-400-r" href="#kontak">Location</a>
                     </li>
                     <li class="nav-item mx-1">
                       <a class="nav-link fw-400-r" href="https://aqiqahup.tawk.help/">Bantuan</a>
